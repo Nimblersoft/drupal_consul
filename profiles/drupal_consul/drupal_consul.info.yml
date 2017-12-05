@@ -18,7 +18,6 @@ dependencies:
   - quickedit
   - editor
   - entity_reference
-  - entity_block
   - help
   - history
   - flag
