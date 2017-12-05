@@ -21,6 +21,7 @@ dependencies:
   - help
   - history
   - flag
+  - libraries
   - menu_ui
   - node
   - options
