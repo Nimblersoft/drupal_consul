@@ -45,7 +45,6 @@ trait MediaFunctionalTestCreateMediaTypeTrait {
     $this->assertIdentical(SAVED_NEW, $status, 'Media type was created successfully.');
 
     // Ensure that the source field exists.
-    /** @var \Drupal\media\MediaSourceInterface $source */
     $source = $media_type->getSource();
     $source_field = $source->getSourceFieldDefinition($media_type);
     if (!$source_field) {
@@ -61,11 +60,6 @@ trait MediaFunctionalTestCreateMediaTypeTrait {
         ])
         ->save();
     }
-
-    // Move source field in form display.
-    entity_get_form_display('media', $id, 'default')
-      ->setComponent($source_field->getName())
-      ->save();
 
     return $media_type;
   }

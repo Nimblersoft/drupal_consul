@@ -92,7 +92,7 @@ abstract class MediaResourceTestBase extends EntityResourceTestBase {
     // Create a "Llama" media item.
     $media = Media::create([
       'bundle' => 'camelids',
-      'field_media_file' => [
+      'field_media_file_1' => [
         'target_id' => $file->id(),
       ],
     ]);
@@ -147,7 +147,7 @@ abstract class MediaResourceTestBase extends EntityResourceTestBase {
           'value' => 'Llama',
         ],
       ],
-      'field_media_file' => [
+      'field_media_file_1' => [
         [
           'description' => NULL,
           'display' => NULL,
