@@ -1,0 +1,15 @@
+.footer-menu{
+  ul{
+    padding-top:10px;
+    li{
+      float:left;
+      border-right:1px solid #9a9a9a;
+      a{
+        padding: 0px 5px;
+      }
+    }
+    li:last-child{
+      border-right:none;
+    }
+  }
+}

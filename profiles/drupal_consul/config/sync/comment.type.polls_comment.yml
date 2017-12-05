@@ -1,0 +1,8 @@
+uuid: 2bc344ed-2ffa-4f87-98f5-2df7b39bd931
+langcode: en
+status: true
+dependencies: {  }
+id: polls_comment
+label: 'Comentarios de Votaciones'
+target_entity_type_id: poll
+description: ''

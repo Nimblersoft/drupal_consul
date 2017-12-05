@@ -1,0 +1,21 @@
+.footer{
+  background: #dee0e3;
+  border-top: 6px solid #004a83;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  margin-left: 0px;
+  margin-right:0px;
+  width: 100%;
+  padding-left:62px;
+  padding-right:62px;
+  padding-bottom:10px;
+  
+  .region-footer{
+    border-bottom:1px solid #9a9a9a;
+  }
+  
+  @media screen and (max-width:991px){
+    padding-left:10px;
+    padding-right:10px;
+  }
+}

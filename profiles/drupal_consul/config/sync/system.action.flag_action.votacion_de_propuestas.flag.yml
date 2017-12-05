@@ -1,0 +1,13 @@
+uuid: 7c328d55-2683-44ac-b31e-1b16aaf1848c
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.votacion_de_propuestas.flag
+label: 'Vota por esta propuesta.'
+type: node
+plugin: 'flag_action:votacion_de_propuestas.flag'
+configuration:
+  flag_id: votacion_de_propuestas
+  flag_action: flag

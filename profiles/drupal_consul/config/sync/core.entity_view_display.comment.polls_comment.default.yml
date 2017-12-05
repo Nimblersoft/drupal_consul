@@ -1,0 +1,26 @@
+uuid: a8912bb6-84eb-45ed-92ae-fda5f9b331e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.polls_comment
+    - field.field.comment.polls_comment.comment_body
+  module:
+    - text
+id: comment.polls_comment.default
+targetEntityType: comment
+bundle: polls_comment
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,22 @@
+uuid: 3af81084-c83c-4425-9f17-640defb9b28e
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access polls'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'flag proposals_voting'
+  - 'flag votacion_de_propuestas'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'

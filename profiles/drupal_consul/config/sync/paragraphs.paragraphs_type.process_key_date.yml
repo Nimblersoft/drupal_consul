@@ -1,0 +1,9 @@
+uuid: 46c6891d-0e12-46b4-adc4-4fdb91549f49
+langcode: en
+status: true
+dependencies: {  }
+id: process_key_date
+label: 'Fecha Clave'
+icon_uuid: null
+description: 'Paragraph para fechas clave de Procesos Legislativos'
+behavior_plugins: {  }

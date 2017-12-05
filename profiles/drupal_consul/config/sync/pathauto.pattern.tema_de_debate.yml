@@ -1,0 +1,33 @@
+uuid: 436728b8-6a4a-412d-8740-c94be47c3d7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: tema_de_debate
+label: 'Tema de debate'
+type: 'canonical_entities:node'
+pattern: '/debates/[node:title]'
+selection_criteria:
+  707488e8-b398-4afb-8cf1-a5ecef428f71:
+    id: node_type
+    bundles:
+      forum: forum
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 707488e8-b398-4afb-8cf1-a5ecef428f71
+  3fac78c9-7a01-434a-a337-07defeef2ce4:
+    id: language
+    langcodes:
+      es: es
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: 3fac78c9-7a01-434a-a337-07defeef2ce4
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

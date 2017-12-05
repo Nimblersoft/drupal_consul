@@ -1,0 +1,27 @@
+uuid: ff4518b7-2732-4d47-95c2-bfe0b9278db2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.poll.body
+    - node.type.poll
+  module:
+    - text
+    - user
+id: node.poll.default
+targetEntityType: node
+bundle: poll
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

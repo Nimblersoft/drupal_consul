@@ -1,0 +1,21 @@
+uuid: 2308b1bf-af42-48ff-af47-c74436d49ca6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body
+    - paragraphs.paragraphs_type.basic
+  module:
+    - text
+id: paragraph.basic.field_body
+field_name: field_body
+entity_type: paragraph
+bundle: basic
+label: Cuerpo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

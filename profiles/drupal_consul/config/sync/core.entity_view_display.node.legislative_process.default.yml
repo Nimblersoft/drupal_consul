@@ -1,0 +1,64 @@
+uuid: 8fe37b84-74c0-47c0-acd3-e1ac20bf9462
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.legislative_process.body
+    - field.field.node.legislative_process.comment
+    - field.field.node.legislative_process.field_key_date
+    - node.type.legislative_process
+  module:
+    - comment
+    - entity_reference_revisions
+    - smart_trim
+    - user
+id: node.legislative_process.default
+targetEntityType: node
+bundle: legislative_process
+mode: default
+content:
+  body:
+    label: hidden
+    type: smart_trim
+    weight: 1
+    settings:
+      trim_length: '150'
+      trim_type: chars
+      trim_suffix: ...
+      wrap_class: trimmed
+      more_text: More
+      more_class: more-link
+      summary_handler: trim
+      wrap_output: 0
+      more_link: 0
+      trim_options:
+        text: 0
+        trim_zero: 0
+    third_party_settings: {  }
+    region: content
+  comment:
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  field_key_date:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

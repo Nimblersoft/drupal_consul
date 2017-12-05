@@ -1,0 +1,33 @@
+uuid: 426d5c89-a543-4db5-ad6a-d31d58bc088b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_status
+    - node.type.budget
+    - taxonomy.vocabulary.estado_de_proyecto
+  content:
+    - 'taxonomy_term:estado_de_proyecto:9ae5f1b3-06d5-4367-93c1-b5c174a68579'
+id: node.budget.field_status
+field_name: field_status
+entity_type: node
+bundle: budget
+label: Estado
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: 9ae5f1b3-06d5-4367-93c1-b5c174a68579
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      estado_de_proyecto: estado_de_proyecto
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

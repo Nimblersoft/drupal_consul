@@ -1,0 +1,11 @@
+ds_2col_custom:
+  label: Two column layout 8-4
+  category: Display Suite
+  class: '\Drupal\ds\Plugin\DsLayout'
+  type: partial
+  template: templates/ds-2col_8_4
+  regions:
+    left:
+      label: Left
+    right:
+      label: Right

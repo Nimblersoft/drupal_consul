@@ -1,0 +1,14 @@
+uuid: 2192da30-c39b-41fd-b053-84ef2ae5d4c4
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.voluntario
+  module:
+    - user
+id: user_add_role_action.voluntario
+label: 'Add the Voluntario role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: voluntario

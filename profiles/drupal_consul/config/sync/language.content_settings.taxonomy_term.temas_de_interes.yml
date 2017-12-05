@@ -1,0 +1,11 @@
+uuid: 1d966aa1-c761-4f5e-ba31-bfc1db8d0525
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.temas_de_interes
+id: taxonomy_term.temas_de_interes
+target_entity_type_id: taxonomy_term
+target_bundle: temas_de_interes
+default_langcode: site_default
+language_alterable: false

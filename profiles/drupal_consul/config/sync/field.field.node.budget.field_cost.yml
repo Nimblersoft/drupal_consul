@@ -1,0 +1,23 @@
+uuid: c03583fd-ecb9-45a4-8d34-e2d3ad9f37d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cost
+    - node.type.budget
+id: node.budget.field_cost
+field_name: field_cost
+entity_type: node
+bundle: budget
+label: Costo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' $'
+field_type: float

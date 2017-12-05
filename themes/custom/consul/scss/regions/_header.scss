@@ -1,0 +1,76 @@
+header.navbar{
+  background: none;
+  border: none;
+  .navbar-header{
+    width:100%;
+    .logo{
+      z-index:99;
+      img{
+        width:90px;
+      }
+    }
+    .navbar-brand{
+      z-index:99;
+      padding-left:0px;
+    }
+    .contextual-region{
+      z-index:99;
+      .navbar-right{
+        li{
+          display: table-cell;
+          height: 5.25rem;
+          a{
+            padding: 0.6875rem 1rem;
+          }
+        }
+      }
+    }
+    .search-block-form{
+      input:focus{
+        border: 1px solid #8a8a8a;
+        background-color: #fff;
+        outline: none;
+        box-shadow: 0 0 5px #cacaca;
+        transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+      }
+      .input-group-btn{
+        button{
+          background: #dee0e3;
+          border: 1px solid #ccc;
+          border-left: 0;
+          color: #222;
+          padding: 7px 12px;
+        }
+      }
+    }
+  }
+  #navbar-collapse{
+    #block-consul-main-menu{
+      z-index:99;
+      .navbar-nav{
+        li{
+          display: inline-block;
+          margin-right: 1.25rem;
+          a{
+            color: #222;
+            display: block;
+            font-weight: bold;
+            width: auto;
+            padding: 11px 1px;
+          }
+          a:hover{
+            color: #004a83;
+            text-decoration: underline;
+          }
+        }
+        .active{
+          a{
+            background:none;
+            border-bottom: 2px solid #004a83;
+            color: #004a83
+          }
+        }
+      }
+    }
+  }
+}

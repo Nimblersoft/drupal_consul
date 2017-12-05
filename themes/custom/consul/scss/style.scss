@@ -1,0 +1,24 @@
+@charset "UTF-8";
+// Default variables.
+@import "default-variables";
+
+// Custom variables.
+@import "variables";
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+// Global styles.
+@import 'global';
+
+//Block
+@import 'blocks/**/*';
+
+//Region
+@import 'regions/**/*';
+
+//Pages
+@import 'pages/**/*';

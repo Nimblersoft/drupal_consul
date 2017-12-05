@@ -1,0 +1,29 @@
+uuid: 83533e8a-4fca-42f9-a98b-f025cfa8bd19
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.poll.body
+    - node.type.poll
+  module:
+    - text
+    - user
+id: node.poll.teaser
+targetEntityType: node
+bundle: poll
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

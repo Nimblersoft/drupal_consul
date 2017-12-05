@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Contains consul_general.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+drupal_set_message(t('An error occurred and processing did not complete.'), 'error');
+
+/**
+ * Implements hook_help().
+ */
+function consul_general_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the consul_general module.
+    case 'help.page.consul_general':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Modulo Custom de CONSUL') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function consul_general_theme() {
+  return [
+    'consul_general' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+

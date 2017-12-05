@@ -1,0 +1,14 @@
+uuid: a1d0e800-f4ca-4a98-bc74-59a5acc72d24
+name: DRUPAL-CONSUL
+mail: gabriel.nunez@nimblersoft.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/187
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

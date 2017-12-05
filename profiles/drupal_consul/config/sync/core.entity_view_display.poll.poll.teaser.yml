@@ -1,0 +1,40 @@
+uuid: d800418a-08d6-4b45-a6d7-7a4fe30e3f0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.poll.teaser
+    - field.field.poll.poll.field_body
+  module:
+    - poll
+    - smart_trim
+id: poll.poll.teaser
+targetEntityType: poll
+bundle: poll
+mode: teaser
+content:
+  field_body:
+    type: smart_trim
+    weight: 1
+    region: content
+    label: above
+    settings:
+      trim_length: '200'
+      trim_type: chars
+      trim_suffix: ...
+      wrap_class: trimmed
+      more_text: More
+      more_class: more-link
+      wrap_output: 0
+      more_link: 0
+      trim_options:
+        text: 0
+        trim_zero: 0
+      summary_handler: full
+    third_party_settings: {  }
+  poll_votes:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

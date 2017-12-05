@@ -1,0 +1,39 @@
+uuid: a734399f-a942-41c7-a058-8734771305aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.polls_comment.default
+    - field.field.poll.poll.field_body
+    - field.field.poll.poll.field_poll_comments
+  module:
+    - comment
+    - poll
+    - text
+id: poll.poll.default
+targetEntityType: poll
+bundle: poll
+mode: default
+content:
+  field_body:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_poll_comments:
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  poll_votes:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

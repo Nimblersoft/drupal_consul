@@ -1,0 +1,28 @@
+uuid: 2dcf3021-9681-4b0c-83b1-2b21cf15306e
+langcode: en
+status: true
+dependencies:
+  module:
+    - masquerade
+    - user
+  theme:
+    - bartik
+id: masquerade
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: masquerade
+settings:
+  id: masquerade
+  label: Masquerade
+  provider: masquerade
+  label_display: visible
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

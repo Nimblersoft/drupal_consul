@@ -1,0 +1,51 @@
+uuid: 883815d9-869b-4da1-a240-64ea54826649
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.process_key_date.field_body
+    - field.field.paragraph.process_key_date.field_date
+    - field.field.paragraph.process_key_date.field_daterange
+    - field.field.paragraph.process_key_date.field_title
+    - paragraphs.paragraphs_type.process_key_date
+  module:
+    - datetime
+    - datetime_range
+    - text
+id: paragraph.process_key_date.default
+targetEntityType: paragraph
+bundle: process_key_date
+mode: default
+content:
+  field_body:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_date:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_daterange:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

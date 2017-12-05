@@ -1,0 +1,23 @@
+uuid: 450102dc-c45e-40b0-b6b2-1d2f2279bc6e
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - forum
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: ERCHDVB33lub-cz7DSYR7HuBlYJjmVUdPw0IIYa3ZXc
+name: 'Tema de Debate'
+type: forum
+description: 'A <em>forum topic</em> starts a new discussion thread within a forum.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
