@@ -1,9 +1,0 @@
-uuid: 5c529c5f-dc37-4c8a-89a5-426170ad648a
-langcode: es
-status: true
-dependencies: {  }
-name: 'Estado de Proyecto'
-vid: estado_de_proyecto
-description: ''
-hierarchy: 0
-weight: 0
