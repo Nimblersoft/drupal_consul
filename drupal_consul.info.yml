@@ -1,6 +1,6 @@
-name: drupal_consul
+name: Drupal Consul
 type: profile
-description: 'Drupal version of CONSUL Ruby app.'
+description: 'An open citizenship participation platform built as a Drupal distribution.'
 core: 8.x
 distribution:
   name: Drupal Consul

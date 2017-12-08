@@ -1,11 +1,6 @@
 core: 8.x
 api: 2
 projects:
-  #drupal:
-    #version: 8.4.2
-  #drupal_consul:
-    #type: profile
-    #custom_download: true
   admin_toolbar:
     version: '1.21'
   better_exposed_filters:
