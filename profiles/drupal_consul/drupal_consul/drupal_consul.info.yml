@@ -1,0 +1,19 @@
+name: Drupal Consul
+type: profile
+description: Profile for the Drupal version of CONSUL
+core: 8.x
+
+distribution:
+  name: Drupal Consul
+
+dependencies:
+  - admin_toolbar
+  - devel
+  - ds
+  - smart_trim
+  - flag
+  - fontawesome
+  - token
+  - paragraphs
+  - votingapi
+  - votingapi_widgets

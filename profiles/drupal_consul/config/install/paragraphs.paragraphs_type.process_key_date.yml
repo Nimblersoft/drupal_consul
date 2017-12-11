@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: process_key_date
+label: 'Fecha Clave'
+icon_uuid: null
+description: 'Paragraph para fechas clave de Procesos Legislativos'
+behavior_plugins: {  }

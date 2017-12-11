@@ -1,0 +1,11 @@
+name: DRUPAL-CONSUL
+mail: gabriel.nunez@nimblersoft.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/187
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: en

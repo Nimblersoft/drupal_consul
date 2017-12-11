@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - poll
+id: poll_choice.token
+label: Token
+targetEntityType: poll_choice
+cache: true

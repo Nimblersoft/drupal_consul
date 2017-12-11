@@ -1,0 +1,13 @@
+langcode: es
+status: true
+dependencies: {  }
+id: voluntario
+label: Voluntario
+weight: 3
+is_admin: null
+permissions:
+  - 'access devel information'
+  - 'create field_interest_topics'
+  - 'create field_volunteering_time'
+  - 'edit own field_interest_topics'
+  - 'edit own field_volunteering_time'

@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: propuesta
+label: Propuesta
+type: 'canonical_entities:node'
+pattern: '/proposals/[node:title]'
+selection_criteria:
+  9e9f99ca-bc9c-45e5-9253-2c4719730deb:
+    id: node_type
+    bundles:
+      proposal: proposal
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9e9f99ca-bc9c-45e5-9253-2c4719730deb
+selection_logic: and
+weight: -5
+relationships: {  }

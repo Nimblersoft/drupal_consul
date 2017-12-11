@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.district
+id: taxonomy_term.district
+target_entity_type_id: taxonomy_term
+target_bundle: district
+default_langcode: es
+language_alterable: false

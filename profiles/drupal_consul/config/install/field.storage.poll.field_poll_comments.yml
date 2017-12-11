@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - poll
+id: poll.field_poll_comments
+field_name: field_poll_comments
+entity_type: poll
+type: comment
+settings:
+  comment_type: polls_comment
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

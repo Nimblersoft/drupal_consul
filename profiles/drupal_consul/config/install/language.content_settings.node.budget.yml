@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.budget
+id: node.budget
+target_entity_type_id: node
+target_bundle: budget
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_interest_topics
+    - taxonomy.vocabulary.temas_de_interes
+  module:
+    - user
+id: user.user.field_interest_topics
+field_name: field_interest_topics
+entity_type: user
+bundle: user
+label: 'Temas de Interés'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      temas_de_interes: temas_de_interes
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: temas_de_interes
+field_type: entity_reference

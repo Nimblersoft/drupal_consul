@@ -1,0 +1,49 @@
+name: drupal_consul
+type: profile
+description: 'Drupal version of CONSUL Ruby app.'
+core: 8.x
+distribution:
+  name: Drupal Consul
+dependencies:
+  - admin_toolbar
+  - better_exposed_filters
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - config
+  - contextual
+  - menu_link_content
+  - datetime
+  - quickedit
+  - editor
+  - entity_reference
+  - help
+  - history
+  - flag
+  - libraries
+  - menu_ui
+  - node
+  - options
+  - path
+  - page_cache
+  - taxonomy
+  - text
+  - dblog
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - fontawesome
+  - fontawesome_menu_icons
+  - ds
+  - pathauto
+  - smart_trim
+  - token
+  - token_filter
+  - votingapi
+  - votingapi_widgets
+  

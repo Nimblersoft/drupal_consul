@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.polls_comment
+id: comment.polls_comment
+target_entity_type_id: comment
+target_bundle: polls_comment
+default_langcode: site_default
+language_alterable: false

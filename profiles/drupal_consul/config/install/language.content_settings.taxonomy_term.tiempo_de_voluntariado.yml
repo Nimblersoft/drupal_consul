@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tiempo_de_voluntariado
+id: taxonomy_term.tiempo_de_voluntariado
+target_entity_type_id: taxonomy_term
+target_bundle: tiempo_de_voluntariado
+default_langcode: site_default
+language_alterable: false

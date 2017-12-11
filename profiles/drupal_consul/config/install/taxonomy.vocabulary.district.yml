@@ -1,0 +1,8 @@
+langcode: es
+status: true
+dependencies: {  }
+name: Distrito
+vid: district
+description: ''
+hierarchy: 0
+weight: 0

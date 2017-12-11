@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: polls_comments
+label: 'Comentarios de Votaciones'
+target_entity_type_id: block_content
+description: ''

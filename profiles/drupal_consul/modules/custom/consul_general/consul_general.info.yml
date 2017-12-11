@@ -1,0 +1,5 @@
+name: CONSUL General
+type: module
+description: Modulo Custom de CONSUL
+core: 8.x
+package: Custom

@@ -1,0 +1,8 @@
+langcode: es
+status: true
+dependencies: {  }
+name: 'Estado de Proyecto'
+vid: estado_de_proyecto
+description: ''
+hierarchy: 0
+weight: 0

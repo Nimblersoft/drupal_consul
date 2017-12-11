@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_voting
+    - node.type.forum
+  module:
+    - votingapi_widgets
+id: node.forum.field_voting
+field_name: field_voting
+entity_type: node
+bundle: forum
+label: Votación
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: '1'
+default_value_callback: ''
+settings:
+  anonymous_window: '0'
+  user_window: '0'
+  result_function: vote_average
+  widget_format: fivestar
+field_type: voting_api_field
