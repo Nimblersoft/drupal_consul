@@ -44,6 +44,6 @@ dependencies:
   - token_filter
   - votingapi
   - votingapi_widgets
- themes:
+themes:
   - bootstrap
   - consul 
