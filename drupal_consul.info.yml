@@ -37,8 +37,6 @@ dependencies:
   - rdf
   - views
   - views_ui
-  - fontawesome
-  - fontawesome_menu_icons
   - ds
   - pathauto
   - smart_trim
