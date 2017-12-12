@@ -13,20 +13,29 @@ dependencies:
   - ckeditor
   - config
   - contextual
-  - menu_link_content
+  - comment
   - datetime
-  - quickedit
+  - datetime_range
+  - ds
+  - ds_extras
+  - menu_link_content
   - editor
   - entity_reference
   - help
   - history
+  - image
   - flag
   - libraries
+  - masquerade
   - menu_ui
   - node
   - options
   - path
   - page_cache
+  - paragraphs
+  - poll
+  - quickedit
+  - search
   - taxonomy
   - text
   - dblog
