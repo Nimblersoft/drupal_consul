@@ -28,7 +28,7 @@ dependencies:
   - image
   - field_permissions
   - flag
-  - lamguage
+  - language
   - libraries
   - masquerade
   - menu_ui
