@@ -16,11 +16,13 @@ dependencies:
   - comment
   - datetime
   - datetime_range
+  - devel
   - ds
   - ds_extras
   - menu_link_content
   - editor
   - entity_reference
+  - forum
   - help
   - history
   - image
@@ -34,6 +36,7 @@ dependencies:
   - page_cache
   - paragraphs
   - poll
+  - profile
   - quickedit
   - search
   - taxonomy
