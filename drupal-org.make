@@ -1,70 +1,67 @@
-core: 8.x
-api: 2
-projects:
-  admin_toolbar:
-    version: '1.21'
-  better_exposed_filters:
-    version: 3.0-alpha3
-  ctools:
-    version: '3.0'
-  devel:
-    version: '1.2'
-  ds:
-    version: '3.1'
-  entity:
-    version: 1.0-beta1
-  entity_reference_revisions:
-    version: '1.3'
-  field_permissions:
-    version: 1.0-beta4
-  flag:
-    version: 4.0-alpha2
-  fontawesome:
-    version: '1.2'
-  fontawesome_menu_icons:
-    version: '1.2'
-  masquerade:
-    version: 2.0-beta1
-  paragraphs:
-    version: '1.2'
-  pathauto:
-    version: '1.0'
-  poll:
-    version: '1.1'
-  profile:
-    version: 1.0-rc1
-  select_registration_roles:
-    version: '1.2'
-  smart_trim:
-    version: 1.x-dev
-  social_api:
-    version: '1.1'
-  social_auth:
-    version: '1.0'
-  social_auth_facebook:
-    version: '1.0'
-  token:
-    version: '1.0'
-  token_filter:
-    version: 1.0-beta1
-  votingapi:
-    version: 3.0-alpha2
-  votingapi_widgets:
-    version: 1.0-alpha3
-  bootstrap:
-    version: '3.6'
-  libraries:
-    type: module
-#    custom_download: true
-#  consul:
-#    type: theme
-#    custom_download: true
-#libraries:
-#  fontawesome:
-#    directory_name: fontawesome
-#    custom_download: true
-#    type: library
-#  fontawesome-iconpicker:
-#    directory_name: fontawesome-iconpicker
-#    custom_download: true
-#    type: library
+core = 8.x
+api = 2
+defaults[projects][subdir] = contrib
+projects[admin_toolbar][type] = module
+projects[admin_toolbar][version] = 1.21
+projects[better_exposed_filters][type] = module
+projects[better_exposed_filters][version] = 3.0-alpha3
+projects[ctools][type] = module
+projects[ctools][version] = 3.0
+projects[devel][type] = module
+projects[devel][version] = 1.2
+projects[ds][type] = module
+projects[ds][version] = 3.1
+projects[entity][type] = module
+projects[entity][version] = 1.0-beta1
+projects[entity_reference_revisions][type] = module
+projects[entity_reference_revisions][version] = 1.3
+projects[field_permissions][type] = module
+projects[field_permissions][version] = 1.0-beta4
+projects[flag][type] = module
+projects[flag][version] = 4.0-alpha2
+projects[fontawesome][type] = module
+projects[fontawesome][version] = 1.3
+projects[fontawesome_menu_icons][type] = module
+projects[fontawesome_menu_icons][version] = 1.2
+projects[libraries][type] = module
+projects[libraries][version] = 3.x-dev
+projects[masquerade][type] = module
+projects[masquerade][version] = 2.0-beta1
+projects[paragraphs][type] = module
+projects[paragraphs][version] = 1.2
+projects[pathauto][type] = module
+projects[pathauto][version] = 1.0
+projects[poll][type] = module
+projects[poll][version] = 1.1
+projects[profile][type] = module
+projects[profile][version] = 1.0-rc1
+projects[select_registration_roles][type] = module
+projects[select_registration_roles][version] = 1.2
+projects[smart_trim][type] = module
+projects[smart_trim][version] = 1.x-dev
+projects[social_api][type] = module
+projects[social_api][version] = 1.1
+projects[social_auth][type] = module
+projects[social_auth][version] = 1.0
+projects[social_auth_facebook][type] = module
+projects[social_auth_facebook][version] = 1.0
+projects[token][type] = module
+projects[token][version] = 1.0
+projects[token_filter][type] = module
+projects[token_filter][version] = 1.0-beta1
+projects[votingapi][type] = module
+projects[votingapi][version] = 3.0-alpha2
+projects[votingapi_widgets][type] = module
+projects[votingapi_widgets][version] = 1.0-alpha3
+projects[bootstrap][type] = module
+projects[bootstrap][version] = 3.7
+libraries[fontawesome][type] = library
+libraries[fontawesome][download][type] = git
+libraries[fontawesome][download][url] = https://github.com/FortAwesome/Font-Awesome.git
+libraries[fontawesome][download][branch] = v4.7.0
+libraries[fontawesome][download][revision] = a8386aae19e200ddb0f6845b5feeee5eb7013687
+libraries[fontawesome-iconpicker][type] = library
+libraries[fontawesome-iconpicker][download][type] = git
+libraries[fontawesome-iconpicker][download][url] = https://github.com/farbelous/fontawesome-iconpicker.git
+libraries[fontawesome-iconpicker][download][branch] = 1.3.1
+libraries[fontawesome-iconpicker][download][revision] = c484b4316608791fffd90a106eac8a154bea3989
