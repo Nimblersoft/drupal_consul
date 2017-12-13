@@ -30,6 +30,7 @@ dependencies:
   - flag
   - language
   - libraries
+  - locale
   - masquerade
   - menu_ui
   - node
