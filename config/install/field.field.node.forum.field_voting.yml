@@ -10,7 +10,7 @@ id: node.forum.field_voting
 field_name: field_voting
 entity_type: node
 bundle: forum
-label: Votación
+label: Vote
 description: ''
 required: false
 translatable: false

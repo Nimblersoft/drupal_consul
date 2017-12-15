@@ -8,7 +8,7 @@ id: node.budget.field_cost
 field_name: field_cost
 entity_type: node
 bundle: budget
-label: Costo
+label: Cost
 description: ''
 required: true
 translatable: false

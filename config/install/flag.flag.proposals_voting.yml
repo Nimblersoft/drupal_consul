@@ -1,20 +1,20 @@
 langcode: en
 status: true
 dependencies: {  }
-id: votacion_de_propuestas
-label: 'Votación de Propuestas'
+id: proposals_voting
+label: 'Proposals Voting'
 bundles:
   - proposal
 entity_type: node
 global: false
 weight: 0
-flag_short: 'Vota por esta propuesta.'
-flag_long: 'Vota por esta propuesta.'
-flag_message: 'Votaste por esta propuesta. Gracias!'
-unflag_short: 'Dejar de votar'
+flag_short: 'Vote for this proposal.'
+flag_long: 'Vote for this proposal.'
+flag_message: 'You voted for this proposal'
+unflag_short: 'Unvote this proposal'
 unflag_long: ''
 unflag_message: ''
-unflag_denied_text: 'Gracias por votar!'
+unflag_denied_text: 'Thanks for voting!'
 flag_type: 'entity:node'
 link_type: ajax_link
 flagTypeConfig:

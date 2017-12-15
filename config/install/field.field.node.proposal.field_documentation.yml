@@ -10,7 +10,7 @@ id: node.proposal.field_documentation
 field_name: field_documentation
 entity_type: node
 bundle: proposal
-label: 'Documentación adicional'
+label: 'Extra documentation'
 description: ''
 required: false
 translatable: false

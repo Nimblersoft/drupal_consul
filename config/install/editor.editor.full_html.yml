@@ -1,6 +1,8 @@
 langcode: es
 status: true
 dependencies:
+  config:
+    - filter.format.full_html
   module:
     - ckeditor
 format: full_html
@@ -36,6 +38,10 @@ settings:
             - DrupalImage
             - Table
             - HorizontalRule
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
         -
           name: Tools
           items:

@@ -11,7 +11,7 @@ id: node.legislative_process.field_key_date
 field_name: field_key_date
 entity_type: node
 bundle: legislative_process
-label: 'Fecha Clave'
+label: 'Key Date'
 description: ''
 required: false
 translatable: false
@@ -27,4 +27,7 @@ settings:
       process_key_date:
         enabled: true
         weight: 2
+      basic:
+        weight: 3
+        enabled: false
 field_type: entity_reference_revisions

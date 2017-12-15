@@ -10,7 +10,7 @@ id: node.proposal.comment
 field_name: comment
 entity_type: node
 bundle: proposal
-label: Comentarios
+label: Comments
 description: ''
 required: false
 translatable: true

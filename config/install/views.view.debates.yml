@@ -219,7 +219,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: 'Inicia un debate para compartir puntos de vista con otras personas sobre los temas que te preocupan.'
+            value: 'Start a debate discussion to share points of view with other people about the issues that concern you.'
             format: basic_html
           plugin_id: text
       footer:
@@ -233,7 +233,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: "<h2>Ayuda sobre los debates</h2>\n\nEl espacio de debates ciudadanos está dirigido a que cualquier persona pueda exponer temas que le preocupan y sobre los que quiera compartir puntos de vista con otras personas.<br>\n\nPara abrir un debate es necesario registrarse en SCTPC. Los usuarios ya registrados también pueden comentar los debates abiertos y valorarlos con los botones de \"Estoy de acuerdo\" o \"No estoy de acuerdo\" que se encuentran en cada uno de ellos.<br>\n\nTen en cuenta que un debate no activa ningún mecanismo de actuación concreto. Si quieres hacer una propuesta para la ciudad o plantear un proyecto de presupuestos participativos cuando se abra la convocatoria, ve a la sección correspondiente."
+            value: "<h2>Help about debates</h2>\n\nThe space for citizen debates is aimed at allowing any person to expose issues that concern them and about which they want to share points of view with other people.<br>\n\nTo open a debate, it is necessary to register. Registered users can also comment on open debates and rate them with the \"I agree\" or \"I do not agree\" buttons found in each of them.<br>\n\nKeep in mind that a debate does not activate any specific action mechanism. If you want to make a proposal for the city or propose a project of participatory budgets when the call is opened, go to the corresponding section.."
             format: full_html
           plugin_id: text
       empty: {  }

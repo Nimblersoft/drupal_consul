@@ -1,8 +1,8 @@
-langcode: es
+langcode: en
 status: true
 dependencies: {  }
-name: 'Estado de Proyecto'
-vid: estado_de_proyecto
+name: 'Project status'
+vid: project_status
 description: ''
 hierarchy: 0
 weight: 0

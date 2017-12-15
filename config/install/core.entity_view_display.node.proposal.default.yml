@@ -31,12 +31,12 @@ third_party_settings:
         - field_documentation
         - field_tags
         - comment
-        - flag_votacion_de_propuestas
+        - flag_proposals_voting
         - 'dynamic_block_field:node-voting_progress'
     fields:
       'dynamic_block_field:node-voting_progress':
         plugin_id: 'dynamic_block_field:node-voting_progress'
-        weight: 7
+        weight: 8
         label: hidden
         formatter: default
 id: node.proposal.default
@@ -75,6 +75,11 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
+  flag_proposals_voting:
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   flag_votacion_de_propuestas:
     weight: 6
     region: content

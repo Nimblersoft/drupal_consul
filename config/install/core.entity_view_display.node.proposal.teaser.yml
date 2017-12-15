@@ -25,7 +25,6 @@ third_party_settings:
       content:
         - body
         - field_tags
-        - flag_votacion_de_propuestas
         - 'dynamic_block_field:node-voting_progress'
     fields:
       'dynamic_block_field:node-voting_progress':
@@ -63,5 +62,6 @@ hidden:
   comment: true
   field_documentation: true
   field_required_voting: true
+  flag_proposals_voting: true
   langcode: true
   links: true

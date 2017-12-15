@@ -9,7 +9,7 @@ id: node.budget.field_district
 field_name: field_district
 entity_type: node
 bundle: budget
-label: Distrito
+label: District
 description: ''
 required: true
 translatable: false

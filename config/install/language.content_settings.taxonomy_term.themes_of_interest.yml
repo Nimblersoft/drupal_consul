@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   config:
-    - taxonomy.vocabulary.district
-id: taxonomy_term.district
+    - taxonomy.vocabulary.themes_of_interest
+id: taxonomy_term.themes_of_interest
 target_entity_type_id: taxonomy_term
-target_bundle: district
+target_bundle: themes_of_interest
 default_langcode: site_default
 language_alterable: false

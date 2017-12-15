@@ -3,14 +3,14 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_required_voting
-    - flag.flag.votacion_de_propuestas
+    - flag.flag.proposals_voting
     - node.type.proposal
   module:
     - flag
     - node
     - user
 id: proposals_progress
-label: 'Progreso de Votaciones'
+label: 'Proposals voting progress'
 module: views
 description: ''
 tag: ''
@@ -58,11 +58,6 @@ display:
         type: default
       row:
         type: fields
-        options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: false
       fields:
         count:
           id: count
@@ -222,7 +217,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Progreso de Votaciones'
+      title: 'Proposals voting progress'
       header: {  }
       footer: {  }
       empty: {  }
@@ -235,7 +230,7 @@ display:
           group_type: group
           admin_label: Flags
           required: true
-          flag: votacion_de_propuestas
+          flag: proposals_voting
           user_scope: current
           entity_type: node
           plugin_id: flag_relationship

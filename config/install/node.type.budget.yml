@@ -8,7 +8,7 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Presupuesto participativo'
+name: Budget
 type: budget
 description: ''
 help: ''

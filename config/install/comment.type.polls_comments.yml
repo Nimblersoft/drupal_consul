@@ -2,6 +2,6 @@ langcode: en
 status: true
 dependencies: {  }
 id: polls_comments
-label: 'Comentarios de Votaciones'
+label: 'Poll comments'
 target_entity_type_id: block_content
 description: ''

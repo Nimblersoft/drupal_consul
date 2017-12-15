@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: process_key_date
-label: 'Fecha Clave'
+label: 'Key Date'
 icon_uuid: null
-description: 'Paragraph para fechas clave de Procesos Legislativos'
+description: 'Paragraph for key dates in Legislative Processes'
 behavior_plugins: {  }

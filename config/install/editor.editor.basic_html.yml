@@ -1,6 +1,8 @@
 langcode: es
 status: true
 dependencies:
+  config:
+    - filter.format.basic_html
   module:
     - ckeditor
 format: basic_html
@@ -29,6 +31,10 @@ settings:
           items:
             - Blockquote
             - DrupalImage
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
         -
           name: Tools
           items:
