@@ -5,11 +5,11 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - node.type.budget
     - taxonomy.vocabulary.district
-    - taxonomy.vocabulary.estado_de_proyecto
+    - taxonomy.vocabulary.project_status
   content:
-    - 'taxonomy_term:estado_de_proyecto:4136389d-c8c0-4f80-917b-bee039bfc861'
-    - 'taxonomy_term:estado_de_proyecto:9ae5f1b3-06d5-4367-93c1-b5c174a68579'
-    - 'taxonomy_term:estado_de_proyecto:c0f15194-5bac-41d9-a77e-cc0e288d7b04'
+    - 'taxonomy_term:project_status:4136389d-c8c0-4f80-917b-bee039bfc861'
+    - 'taxonomy_term:project_status:9ae5f1b3-06d5-4367-93c1-b5c174a68579'
+    - 'taxonomy_term:project_status:c0f15194-5bac-41d9-a77e-cc0e288d7b04'
   module:
     - better_exposed_filters
     - node
@@ -205,7 +205,7 @@ display:
           reduce_duplicates: true
           type: select
           limit: true
-          vid: estado_de_proyecto
+          vid: project_status
           hierarchy: false
           error_message: true
           plugin_id: taxonomy_index_tid
@@ -378,7 +378,7 @@ display:
           reduce_duplicates: true
           type: select
           limit: true
-          vid: estado_de_proyecto
+          vid: project_status
           hierarchy: false
           error_message: true
           plugin_id: taxonomy_index_tid
@@ -538,7 +538,7 @@ display:
           reduce_duplicates: true
           type: select
           limit: true
-          vid: estado_de_proyecto
+          vid: project_status
           hierarchy: false
           error_message: true
           plugin_id: taxonomy_index_tid
