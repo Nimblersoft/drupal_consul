@@ -7,16 +7,16 @@ dependencies:
     - taxonomy.vocabulary.district
     - taxonomy.vocabulary.project_status
   content:
-    - 'taxonomy_term:project_status:4136389d-c8c0-4f80-917b-bee039bfc861'
-    - 'taxonomy_term:project_status:9ae5f1b3-06d5-4367-93c1-b5c174a68579'
-    - 'taxonomy_term:project_status:c0f15194-5bac-41d9-a77e-cc0e288d7b04'
+    - 'taxonomy_term:project_status:1dec9b82-c89a-4566-bfd3-b302ff963c7a'
+    - 'taxonomy_term:project_status:da3e2d5c-4420-4e97-84e7-596d49bc232b'
+    - 'taxonomy_term:project_status:e6880663-f17a-4f32-b707-768c42af7de2'
   module:
     - better_exposed_filters
     - node
     - taxonomy
     - user
 id: budgets
-label: Presupuestos
+label: Budgets
 module: views
 description: ''
 tag: ''
@@ -174,7 +174,7 @@ display:
           admin_label: ''
           operator: or
           value:
-            29: 29
+            33: 33
           group: 1
           exposed: false
           expose:
@@ -234,7 +234,6 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
-              voluntario: '0'
             reduce: false
           is_grouped: false
           group_info:
@@ -292,14 +291,14 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: 'En Progreso'
+    display_title: 'In progress'
     position: 1
     display_options:
       display_extenders: {  }
       path: budgets/progress
       menu:
         type: tab
-        title: 'En progreso'
+        title: 'In progress'
         description: ''
         expanded: false
         parent: ''
@@ -347,7 +346,7 @@ display:
           admin_label: ''
           operator: or
           value:
-            30: 30
+            32: 32
           group: 1
           exposed: false
           expose:
@@ -395,7 +394,7 @@ display:
           exposed: true
           expose:
             operator_id: field_district_target_id_op
-            label: Distrito
+            label: District
             description: ''
             use_operator: false
             operator: field_district_target_id_op
@@ -407,7 +406,6 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
-              voluntario: '0'
             reduce: false
           is_grouped: false
           group_info:
@@ -432,9 +430,9 @@ display:
         operator: AND
         groups:
           1: AND
-      title: 'En Progreso'
+      title: 'In progress'
       exposed_form:
-        type: basic
+        type: bef
         options:
           submit_button: Apply
           reset_button: false
@@ -443,6 +441,23 @@ display:
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
+          input_required: false
+          text_input_required: 'Select any filter and click on Apply to see results'
+          bef:
+            general:
+              allow_secondary: false
+              secondary_label: 'Advanced options'
+              autosubmit: true
+              autosubmit_hide: true
+            field_district_target_id:
+              bef_format: bef_links
+              more_options:
+                bef_select_all_none: false
+                bef_collapsible: false
+                is_secondary: false
+                rewrite:
+                  filter_rewrite_values: ''
+          text_input_required_format: basic_html
     cache_metadata:
       max-age: -1
       contexts:
@@ -457,14 +472,14 @@ display:
   page_2:
     display_plugin: page
     id: page_2
-    display_title: Aprobados
+    display_title: Approved
     position: 1
     display_options:
       display_extenders: {  }
       path: budgets/approved
       menu:
         type: tab
-        title: Aprobados
+        title: Approved
         description: ''
         expanded: false
         parent: ''
@@ -507,7 +522,7 @@ display:
           admin_label: ''
           operator: or
           value:
-            28: 28
+            31: 31
           group: 1
           exposed: false
           expose:
@@ -555,7 +570,7 @@ display:
           exposed: true
           expose:
             operator_id: field_district_target_id_op
-            label: Distrito
+            label: District
             description: ''
             use_operator: false
             operator: field_district_target_id_op
@@ -567,7 +582,6 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
-              voluntario: '0'
             reduce: false
           is_grouped: false
           group_info:
@@ -597,7 +611,7 @@ display:
         operator: AND
         groups:
           1: AND
-      title: Aprobados
+      title: Approved
       exposed_form:
         type: bef
         options:
@@ -616,7 +630,7 @@ display:
               secondary_label: 'Advanced options'
               autosubmit: true
               autosubmit_hide: true
-            field_status_target_id:
+            field_district_target_id:
               bef_format: bef_links
               more_options:
                 bef_select_all_none: false
@@ -639,14 +653,14 @@ display:
   page_3:
     display_plugin: page
     id: page_3
-    display_title: Rechazados
+    display_title: Rejected
     position: 1
     display_options:
       display_extenders: {  }
       path: budgets/rejected
       menu:
         type: tab
-        title: Rechazados
+        title: Rejected
         description: ''
         expanded: false
         parent: ''
@@ -659,9 +673,125 @@ display:
         description: ''
         weight: 0
       display_description: ''
-      title: Rechazados
+      title: Rejected
       defaults:
         title: false
+        filters: false
+        filter_groups: false
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            budget: budget
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+        tid:
+          id: tid
+          table: taxonomy_index
+          field: tid
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value:
+            33: 33
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: true
+          type: select
+          limit: true
+          vid: project_status
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
+        field_district_target_id:
+          id: field_district_target_id
+          table: node__field_district
+          field: field_district_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_district_target_id_op
+            label: DIstrict
+            description: ''
+            use_operator: false
+            operator: field_district_target_id_op
+            identifier: district
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: district
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
     cache_metadata:
       max-age: -1
       contexts:

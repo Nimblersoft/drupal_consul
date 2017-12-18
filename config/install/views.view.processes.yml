@@ -8,7 +8,7 @@ dependencies:
     - node
     - user
 id: processes
-label: 'Procesos Legislativo'
+label: 'Legislative Processes'
 module: views
 description: ''
 tag: ''
@@ -156,7 +156,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Procesos Legislativo'
+      title: 'Legislative Processes'
       header: {  }
       footer: {  }
       empty: {  }

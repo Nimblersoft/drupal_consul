@@ -7,8 +7,8 @@ dependencies:
   module:
     - node
     - user
-id: propuestas
-label: Propuestas
+id: proposals
+label: 'Duplicate of Proposals'
 module: views
 description: ''
 tag: ''
@@ -156,7 +156,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Propuestas
+      title: Proposals
       header: {  }
       footer: {  }
       empty: {  }

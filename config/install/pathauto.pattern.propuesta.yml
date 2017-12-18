@@ -4,18 +4,18 @@ dependencies:
   module:
     - node
 id: propuesta
-label: Propuesta
+label: Proposal
 type: 'canonical_entities:node'
 pattern: '/proposals/[node:title]'
 selection_criteria:
-  9e9f99ca-bc9c-45e5-9253-2c4719730deb:
+  c607ad44-558f-4486-a2a2-9798c6f09996:
     id: node_type
     bundles:
       proposal: proposal
     negate: false
     context_mapping:
       node: node
-    uuid: 9e9f99ca-bc9c-45e5-9253-2c4719730deb
+    uuid: c607ad44-558f-4486-a2a2-9798c6f09996
 selection_logic: and
 weight: -5
 relationships: {  }

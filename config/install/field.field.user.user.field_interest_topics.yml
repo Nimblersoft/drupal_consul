@@ -3,14 +3,14 @@ status: true
 dependencies:
   config:
     - field.storage.user.field_interest_topics
-    - taxonomy.vocabulary.temas_de_interes
+    - taxonomy.vocabulary.themes_of_interest
   module:
     - user
 id: user.user.field_interest_topics
 field_name: field_interest_topics
 entity_type: user
 bundle: user
-label: 'Temas de Interés'
+label: 'Themes of interest'
 description: ''
 required: false
 translatable: false
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      temas_de_interes: temas_de_interes
+      themes_of_interest: themes_of_interest
     sort:
       field: name
       direction: asc

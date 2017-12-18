@@ -2,29 +2,20 @@ langcode: en
 status: true
 dependencies:
   module:
-    - language
     - node
 id: presupuesto_participativo
-label: 'Presupuesto participativo'
+label: 'Participative budget'
 type: 'canonical_entities:node'
 pattern: '/budgets/[node:title]'
 selection_criteria:
-  90483bcd-6ef6-4312-9977-3022b50417f2:
+  bb4a136a-bc38-4da3-b309-5c9f1f00e7ee:
     id: node_type
     bundles:
       budget: budget
     negate: false
     context_mapping:
       node: node
-    uuid: 90483bcd-6ef6-4312-9977-3022b50417f2
-  3a6a70d1-1f99-4cf0-bd15-7807b7889cbb:
-    id: language
-    langcodes:
-      es: es
-    negate: false
-    context_mapping:
-      language: 'node:langcode:language'
-    uuid: 3a6a70d1-1f99-4cf0-bd15-7807b7889cbb
+    uuid: bb4a136a-bc38-4da3-b309-5c9f1f00e7ee
 selection_logic: and
 weight: -10
 relationships:

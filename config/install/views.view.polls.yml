@@ -7,7 +7,7 @@ dependencies:
     - ds
     - poll
 id: polls
-label: Votaciones
+label: Polls
 module: views
 description: ''
 tag: ''
