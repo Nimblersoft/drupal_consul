@@ -1,0 +1,229 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/budgets\/dolus-nibh?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/budget"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/42?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/uid": [
+            {
+                "href": "http:\/\/default\/user\/42?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_district": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/26?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_status": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/32?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 319
+        }
+    ],
+    "uuid": [
+        {
+            "value": "086f03b3-fa8e-441e-a952-414317c7c324"
+        }
+    ],
+    "vid": [
+        {
+            "value": 339
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "budget"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-18T21:48:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/42?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "db3ae45f-c0a5-4022-9d8a-65dad4eaafe8"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/42?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "db3ae45f-c0a5-4022-9d8a-65dad4eaafe8"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_district": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/26?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/district"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "101e6ecb-561a-4ca8-87c2-f3d9d05aec9d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_status": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/32?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/project_status"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e6880663-f17a-4f32-b707-768c42af7de2"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4681571d-2e96-46e5-be00-4664725063a6"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Dolus Nibh",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-14T16:05:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-18T21:48:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/budgets\/dolus-nibh",
+            "pid": 118,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Autem bene euismod ex illum neque obruo. Accumsan dolus erat os quadrum quia quis suscipere verto voco. Ad at enim haero hendrerit neque nisl singularis suscipere. Comis ideo paulatim. Adipiscing capto elit sino utinam. Blandit enim ex interdico iustum lenis modo torqueo. Amet dignissim plaga tum ut. Comis defui luctus metuo praesent tum ulciscor ut.\n\nGravis humo meus nibh. Cogo commoveo ideo nisl pertineo rusticus usitas uxor validus. Elit jus obruo populus praesent te usitas validus. Commoveo dolore dolus haero immitto paratus scisco valetudo. Aliquip blandit causa jugis nisl qui quis te. Exerci lobortis luctus. Causa consectetuer illum iusto uxor zelus. Autem esse facilisis jugis lenis.\n\nAbluo esse inhibeo iriure ludus macto minim praesent premo tamen. Abigo brevitas ludus mauris modo tum. Causa damnum macto nisl nostrud pertineo rusticus suscipit venio vero. Enim exerci iusto mos populus utinam vicis. Esca euismod ideo minim obruo paulatim. Ibidem proprius veniam. Occuro tation zelus. Diam gilvus ut valetudo. Jus nulla probo vero vindico.\n\nDolus interdico mauris pertineo refoveo similis typicus veniam vulpes. Acsi camur macto minim molior pertineo ut. Autem dignissim enim imputo tincidunt valde. Comis ille letalis paulatim proprius usitas. Abluo bene nobis scisco sino sit. Abdo abigo molior nutus praemitto utrum. Camur pneum tum.\n\nAd comis obruo pala proprius tum. Caecus inhibeo olim pagus pertineo similis singularis ulciscor. Damnum lobortis odio rusticus sed te ulciscor. Diam eu exputo fere laoreet molior odio refoveo vel velit. Interdico quidne vulpes. Abluo appellatio dolore ille luctus odio saluto sit usitas virtus. Conventio dignissim duis esca luctus ludus odio pecus pneum qui.\n\nConsequat damnum feugiat nunc virtus. Blandit eligo iustum vero. Camur diam erat nulla typicus. Gilvus ludus sed uxor. Ad commodo quis sed. Comis qui quia similis. Ad antehabeo decet feugiat huic humo torqueo veniam. Enim facilisi laoreet neo. Ad appellatio euismod importunus loquor meus pneum premo turpis. Capto hos interdico luctus roto tamen. Illum jugis lobortis patria tation. Brevitas euismod nutus.\n\nCui eros hendrerit immitto nimis pertineo pneum si te volutpat. Augue capto defui tincidunt venio. Augue caecus inhibeo pagus probo sed virtus. Commoveo metuo neo nunc. Autem hendrerit vereor vindico. Abdo aliquip esca metuo oppeto. Autem esse haero pertineo ratis usitas. Facilisi magna tation. Immitto luctus neo quia virtus. Abico diam dolore haero in nobis premo quidem similis utinam. Duis hos illum lobortis nutus os sino tation ut.\n\nAliquam aliquip et nobis os ut venio. Consectetuer decet dolus ibidem lucidus quidne refero saluto turpis. Acsi blandit incassum nulla os quia quidne utrum wisi. Bene causa commoveo defui neque pertineo praesent si utrum. Amet aptent caecus jus quidem sudo vulpes. Abigo blandit nostrud paulatim sudo typicus. Augue conventio gilvus jus sudo utinam.\n\nDiam lobortis nulla olim turpis valde. Aliquip commodo consequat in quis tego typicus wisi. Bene distineo euismod gravis ulciscor vero. Blandit enim exerci incassum nibh nunc saepius usitas. Euismod facilisis haero lucidus macto os quia saepius suscipere validus. Incassum paratus populus. Caecus commoveo iusto nimis quis tincidunt vindico. Abluo commoveo cui imputo jumentum.\n\nNutus olim uxor. Caecus dolore pertineo probo utrum vero wisi. Eu huic iustum loquor lucidus nisl. Pecus quia quidem si tego. Abigo amet tincidunt. Blandit facilisis fere inhibeo os paulatim scisco. Illum meus nulla quia refoveo similis. Cogo immitto meus refero. Amet enim pagus pecus premo quibus saluto. Blandit ea euismod vicis. Bene caecus damnum ideo lobortis meus minim premo.\n\nAcsi meus minim nostrud. Dignissim dolore os pecus quidne tation ulciscor. Accumsan camur damnum jugis persto premo roto vel. Adipiscing augue cui praesent ratis.\n\nCui defui duis roto. Abluo esse metuo odio. Amet antehabeo commodo diam facilisis nobis patria praemitto. Esca gemino iusto iustum molior persto pertineo saluto valde vereor. Esse facilisis sit tation. Acsi esse facilisis hendrerit natu quis singularis tation ullamcorper uxor.\n\n",
+            "format": "plain_text",
+            "summary": "Autem bene euismod ex illum neque obruo. Accumsan dolus erat os quadrum quia quis suscipere verto voco. Ad at enim haero hendrerit neque nisl singularis suscipere. Comis ideo paulatim. Adipiscing capto elit sino utinam. Blandit enim ex interdico iustum lenis modo torqueo. Amet dignissim plaga tum ut. Comis defui luctus metuo praesent tum ulciscor ut.\n\nGravis humo meus nibh. Cogo commoveo ideo nisl pertineo rusticus usitas uxor validus. Elit jus obruo populus praesent te usitas validus. Commoveo dolore dolus haero immitto paratus scisco valetudo. Aliquip blandit causa jugis nisl qui quis te. Exerci lobortis luctus. Causa consectetuer illum iusto uxor zelus. Autem esse facilisis jugis lenis.\n\nAbluo esse inhibeo iriure ludus macto minim praesent premo tamen. Abigo brevitas ludus mauris modo tum. Causa damnum macto nisl nostrud pertineo rusticus suscipit venio vero. Enim exerci iusto mos populus utinam vicis. Esca euismod ideo minim obruo paulatim. Ibidem proprius veniam. Occuro tation zelus. Diam gilvus ut valetudo. Jus nulla probo vero vindico.\n\nDolus interdico mauris pertineo refoveo similis typicus veniam vulpes. Acsi camur macto minim molior pertineo ut. Autem dignissim enim imputo tincidunt valde. Comis ille letalis paulatim proprius usitas. Abluo bene nobis scisco sino sit. Abdo abigo molior nutus praemitto utrum. Camur pneum tum.\n\nAd comis obruo pala proprius tum. Caecus inhibeo olim pagus pertineo similis singularis ulciscor. Damnum lobortis odio rusticus sed te ulciscor. Diam eu exputo fere laoreet molior odio refoveo vel velit. Interdico quidne vulpes. Abluo appellatio dolore ille luctus odio saluto sit usitas virtus. Conventio dignissim duis esca luctus ludus odio pecus pneum qui.\n\nConsequat damnum feugiat nunc virtus. Blandit eligo iustum vero. Camur diam erat nulla typicus. Gilvus ludus sed uxor. Ad commodo quis sed. Comis qui quia similis. Ad antehabeo decet feugiat huic humo torqueo veniam. Enim facilisi laoreet neo. Ad appellatio euismod importunus loquor meus pneum premo turpis. Capto hos interdico luctus roto tamen. Illum jugis lobortis patria tation. Brevitas euismod nutus.\n\nCui eros hendrerit immitto nimis pertineo pneum si te volutpat. Augue capto defui tincidunt venio. Augue caecus inhibeo pagus probo sed virtus. Commoveo metuo neo nunc. Autem hendrerit vereor vindico. Abdo aliquip esca metuo oppeto. Autem esse haero pertineo ratis usitas. Facilisi magna tation. Immitto luctus neo quia virtus. Abico diam dolore haero in nobis premo quidem similis utinam. Duis hos illum lobortis nutus os sino tation ut.\n\nAliquam aliquip et nobis os ut venio. Consectetuer decet dolus ibidem lucidus quidne refero saluto turpis. Acsi blandit incassum nulla os quia quidne utrum wisi. Bene causa commoveo defui neque pertineo praesent si utrum. Amet aptent caecus jus quidem sudo vulpes. Abigo blandit nostrud paulatim sudo typicus. Augue conventio gilvus jus sudo utinam.\n\nDiam lobortis nulla olim turpis valde. Aliquip commodo consequat in quis tego typicus wisi. Bene distineo euismod gravis ulciscor vero. Blandit enim exerci incassum nibh nunc saepius usitas. Euismod facilisis haero lucidus macto os quia saepius suscipere validus. Incassum paratus populus. Caecus commoveo iusto nimis quis tincidunt vindico. Abluo commoveo cui imputo jumentum.\n\nNutus olim uxor. Caecus dolore pertineo probo utrum vero wisi. Eu huic iustum loquor lucidus nisl. Pecus quia quidem si tego. Abigo amet tincidunt. Blandit facilisis fere inhibeo os paulatim scisco. Illum meus nulla quia refoveo similis. Cogo immitto meus refero. Amet enim pagus pecus premo quibus saluto. Blandit ea euismod vicis. Bene caecus damnum ideo lobortis meus minim premo.\n\nAcsi meus minim nostrud. Dignissim dolore os pecus quidne tation ulciscor. Accumsan camur damnum jugis persto premo roto vel. Adipiscing augue cui praesent ratis.\n\nCui defui duis roto. Abluo esse metuo odio. Amet antehabeo commodo diam facilisis nobis patria praemitto. Esca gemino iusto iustum molior persto pertineo saluto valde vereor. Esse facilisis sit tation. Acsi esse facilisis hendrerit natu quis singularis tation ullamcorper uxor.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_cost": [
+        {
+            "value": 8.65382e+21
+        }
+    ]
+}

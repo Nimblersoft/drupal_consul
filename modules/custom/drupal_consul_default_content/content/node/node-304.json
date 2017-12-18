@@ -1,0 +1,196 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/debates\/adipiscing-esca-iustum-nutus?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/forum"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/0?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/uid": [
+            {
+                "href": "http:\/\/default\/user\/0?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/taxonomy_forums": [
+            {
+                "href": "http:\/\/default\/debates?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 304
+        }
+    ],
+    "uuid": [
+        {
+            "value": "78d9a84d-065f-4b75-910a-354be9c8bbaa"
+        }
+    ],
+    "vid": [
+        {
+            "value": 324
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "forum"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-18T21:22:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3fe4f700-adea-4898-9984-16e432d04960"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3fe4f700-adea-4898-9984-16e432d04960"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/taxonomy_forums": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/debates?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/forums"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a9cd7e3d-90b9-421a-befa-eceb89328962"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Adipiscing Esca Iustum Nutus",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-13T04:11:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-18T21:22:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/debates\/adipiscing-esca-iustum-nutus",
+            "pid": 108,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Appellatio commodo eum luctus patria saluto. Diam neo pagus pala. Adipiscing duis ibidem jugis plaga wisi. Abico ad eligo oppeto qui quia typicus verto. Abbas torqueo uxor. Ex iustum lenis magna nulla quis roto singularis.\n\nAd capto consectetuer esse occuro pala quidne sagaciter te veniam. Abdo distineo erat importunus metuo minim validus vel. Decet duis ea elit gilvus minim.\n\nBene nibh nimis praemitto quis veniam. At in lucidus natu nibh quae similis torqueo ullamcorper usitas. Abluo esse facilisis humo laoreet populus. At camur commoveo damnum et huic melior pala. Acsi blandit gravis interdico pagus pneum velit vicis.\n\nEros gravis luctus nostrud si tincidunt. Aliquam jumentum metuo os sed. Augue dignissim vindico voco wisi. Adipiscing at praesent. Abbas at hendrerit. Abluo neque odio sed.\n\nAbluo antehabeo blandit dolore melior tamen ut valetudo voco. Brevitas exerci nunc. Duis euismod imputo roto. Eligo ludus obruo quidne. Ea ille odio sed usitas ut. Facilisi ibidem populus proprius. Abigo blandit hendrerit nibh olim refoveo sed torqueo validus.\n\nAt commoveo quis vindico. Abluo adipiscing antehabeo at camur interdico molior quibus ut. Aliquip antehabeo causa distineo et exerci illum mos nimis. Caecus hos iusto nostrud ratis tum. Appellatio comis euismod gemino metuo neo tego torqueo verto vulputate. Aliquip amet antehabeo camur eligo eros exputo lenis ratis. Adipiscing aliquip duis gravis macto mos neo plaga tincidunt verto.\n\nAutem roto valde. Abico at jus letalis nulla quia sit suscipit tego wisi. Nisl similis sit ullamcorper. Ideo nulla olim quidem rusticus tation vicis vulputate. Appellatio distineo tation turpis. Gilvus gravis sudo volutpat. Diam euismod luptatum meus neque quae quibus tincidunt zelus. Commodo feugiat hos lenis ut.\n\nAt defui haero quia refoveo. Antehabeo capto enim nobis pala qui sed sino ulciscor ut. Incassum laoreet mauris nisl singularis. Cogo lucidus sed. Abbas feugiat similis. Amet macto odio quae valde. Amet ex pagus proprius refero saluto si sudo suscipere. Dolore humo immitto nibh nimis pala tation vulputate. Genitus nostrud sagaciter venio vicis. Consequat conventio jus nunc os usitas. At cui facilisis valetudo zelus.\n\nEligo premo saepius voco. Aliquam roto vel. Abdo distineo inhibeo nutus ratis. Capto eros ex exputo illum minim occuro singularis sudo usitas. Adipiscing causa ea nulla nutus. Abbas incassum vereor. Ille lucidus luctus ludus persto validus verto. Brevitas decet distineo ideo incassum vindico. Consectetuer gravis metuo plaga ymo. Gravis lenis lucidus natu.\n\nAntehabeo augue humo lobortis loquor lucidus olim similis. Conventio neque similis. Conventio eu gemino in loquor sino. In incassum metuo nulla quia roto saluto si verto vindico. Camur defui dolor ibidem iusto persto plaga saepius vereor. Amet neque odio pagus quis te. Aptent esca jugis nutus rusticus typicus vindico virtus vulpes.\n\nAugue in interdico jugis laoreet. Damnum exerci importunus iustum magna saluto scisco. Ad diam facilisi huic iusto quae refoveo suscipere volutpat. Abico distineo fere gilvus hendrerit illum letalis lucidus neque nobis.\n\nCommodo enim incassum macto nibh sino. Autem comis cui elit illum luctus quidem sagaciter tego. Causa cogo melior mos neo os ratis sino vulputate. Commodo defui hos iriure luptatum odio scisco veniam wisi zelus. Facilisis interdico lucidus meus quia rusticus wisi. Commoveo damnum imputo pala populus roto usitas venio ymo. Comis dolore ea exerci feugiat lenis praemitto sit tamen.\n\n",
+            "format": "plain_text",
+            "summary": "Appellatio commodo eum luctus patria saluto. Diam neo pagus pala. Adipiscing duis ibidem jugis plaga wisi. Abico ad eligo oppeto qui quia typicus verto. Abbas torqueo uxor. Ex iustum lenis magna nulla quis roto singularis.\n\nAd capto consectetuer esse occuro pala quidne sagaciter te veniam. Abdo distineo erat importunus metuo minim validus vel. Decet duis ea elit gilvus minim.\n\nBene nibh nimis praemitto quis veniam. At in lucidus natu nibh quae similis torqueo ullamcorper usitas. Abluo esse facilisis humo laoreet populus. At camur commoveo damnum et huic melior pala. Acsi blandit gravis interdico pagus pneum velit vicis.\n\nEros gravis luctus nostrud si tincidunt. Aliquam jumentum metuo os sed. Augue dignissim vindico voco wisi. Adipiscing at praesent. Abbas at hendrerit. Abluo neque odio sed.\n\nAbluo antehabeo blandit dolore melior tamen ut valetudo voco. Brevitas exerci nunc. Duis euismod imputo roto. Eligo ludus obruo quidne. Ea ille odio sed usitas ut. Facilisi ibidem populus proprius. Abigo blandit hendrerit nibh olim refoveo sed torqueo validus.\n\nAt commoveo quis vindico. Abluo adipiscing antehabeo at camur interdico molior quibus ut. Aliquip antehabeo causa distineo et exerci illum mos nimis. Caecus hos iusto nostrud ratis tum. Appellatio comis euismod gemino metuo neo tego torqueo verto vulputate. Aliquip amet antehabeo camur eligo eros exputo lenis ratis. Adipiscing aliquip duis gravis macto mos neo plaga tincidunt verto.\n\nAutem roto valde. Abico at jus letalis nulla quia sit suscipit tego wisi. Nisl similis sit ullamcorper. Ideo nulla olim quidem rusticus tation vicis vulputate. Appellatio distineo tation turpis. Gilvus gravis sudo volutpat. Diam euismod luptatum meus neque quae quibus tincidunt zelus. Commodo feugiat hos lenis ut.\n\nAt defui haero quia refoveo. Antehabeo capto enim nobis pala qui sed sino ulciscor ut. Incassum laoreet mauris nisl singularis. Cogo lucidus sed. Abbas feugiat similis. Amet macto odio quae valde. Amet ex pagus proprius refero saluto si sudo suscipere. Dolore humo immitto nibh nimis pala tation vulputate. Genitus nostrud sagaciter venio vicis. Consequat conventio jus nunc os usitas. At cui facilisis valetudo zelus.\n\nEligo premo saepius voco. Aliquam roto vel. Abdo distineo inhibeo nutus ratis. Capto eros ex exputo illum minim occuro singularis sudo usitas. Adipiscing causa ea nulla nutus. Abbas incassum vereor. Ille lucidus luctus ludus persto validus verto. Brevitas decet distineo ideo incassum vindico. Consectetuer gravis metuo plaga ymo. Gravis lenis lucidus natu.\n\nAntehabeo augue humo lobortis loquor lucidus olim similis. Conventio neque similis. Conventio eu gemino in loquor sino. In incassum metuo nulla quia roto saluto si verto vindico. Camur defui dolor ibidem iusto persto plaga saepius vereor. Amet neque odio pagus quis te. Aptent esca jugis nutus rusticus typicus vindico virtus vulpes.\n\nAugue in interdico jugis laoreet. Damnum exerci importunus iustum magna saluto scisco. Ad diam facilisi huic iusto quae refoveo suscipere volutpat. Abico distineo fere gilvus hendrerit illum letalis lucidus neque nobis.\n\nCommodo enim incassum macto nibh sino. Autem comis cui elit illum luctus quidem sagaciter tego. Causa cogo melior mos neo os ratis sino vulputate. Commodo defui hos iriure luptatum odio scisco veniam wisi zelus. Facilisis interdico lucidus meus quia rusticus wisi. Commoveo damnum imputo pala populus roto usitas venio ymo. Comis dolore ea exerci feugiat lenis praemitto sit tamen.\n\n",
+            "lang": "en"
+        }
+    ],
+    "comment_forum": [
+        {
+            "status": 0,
+            "cid": 0,
+            "last_comment_timestamp": 1513632171,
+            "last_comment_name": null,
+            "last_comment_uid": 0,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ],
+    "field_voting": [
+        {
+            "status": 0
+        }
+    ]
+}

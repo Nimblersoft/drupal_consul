@@ -1,0 +1,75 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/basic"
+        }
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "822a4ed3-d52f-49fc-90e0-1abb6a8569df"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic"
+        }
+    ],
+    "info": [
+        {
+            "value": "Footer Item",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-15T17:26:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2017-11-27T16:49:45+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"footer-item-wrapper\">\r\n<div class=\"col-lg-4 col-xs-12 gobierno\">\r\n<h1><a href=\"\/proposals\">Open government<\/a><\/h1>\r\n\r\n<p>This portal uses the&nbsp;<a href=\"https:\/\/github.com\/consul\/consul\" rel=\"nofollow\" target=\"blank\">CONSUL application<\/a>&nbsp;that complies with&nbsp;<a href=\"http:\/\/www.gnu.org\/licenses\/agpl-3.0.html\" rel=\"nofollow\" target=\"blank\">free software policy<\/a>. For more information go&nbsp;<a href=\"\/more-information\">here<\/a>.<\/p>\r\n<\/div>\r\n\r\n<div class=\"col-lg-8 col-xs-12 footer-items\">\r\n<div class=\"col-md-4 col-xs-12 footer-item\">\r\n<p><a href=\"\/\">Participation<\/a><\/p>\r\n\r\n<p>Decide how do you want your desired city.<\/p>\r\n<\/div>\r\n\r\n<div class=\"col-md-4 col-xs-12 footer-item\">\r\n<p><a href=\"\/\" rel=\"nofollow\">Transparency<\/a><\/p>\r\n\r\n<p>Get information about your city.<\/p>\r\n<\/div>\r\n\r\n<div class=\"col-md-4 col-xs-12 footer-item\">\r\n<p><a href=\"\/\" rel=\"nofollow\">Open Data<\/a><\/p>\r\n\r\n<p>All the data of the City Council are yours.<\/p>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

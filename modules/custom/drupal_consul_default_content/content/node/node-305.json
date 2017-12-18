@@ -1,0 +1,196 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/debates\/refero-vulpes?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/forum"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/11?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/uid": [
+            {
+                "href": "http:\/\/default\/user\/11?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/taxonomy_forums": [
+            {
+                "href": "http:\/\/default\/debates?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 305
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6105de25-45ff-4fb9-a3e2-4b0af40dfe12"
+        }
+    ],
+    "vid": [
+        {
+            "value": 325
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "forum"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-18T21:22:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "417c1c9f-4373-4067-b258-5d61240b54dc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "417c1c9f-4373-4067-b258-5d61240b54dc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/taxonomy_forums": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/debates?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/forums"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a9cd7e3d-90b9-421a-befa-eceb89328962"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Refero Vulpes",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-16T00:42:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-18T21:22:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/debates\/refero-vulpes",
+            "pid": 109,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "At gemino iaceo lucidus nunc quadrum quidem tation utrum vindico. Imputo natu tum. Augue lucidus macto molior. Acsi cui dolor eum exputo hendrerit iaceo. Cui damnum decet duis metuo saluto. Appellatio camur facilisi nisl praemitto uxor. Comis dolor tincidunt vindico. Erat eu persto quadrum vulpes.\n\nAbbas adipiscing bene comis in interdico neo nobis quadrum tum. Acsi appellatio distineo jumentum suscipit ullamcorper valde. Facilisi feugiat lobortis obruo probo quis. Autem dolor humo iriure similis usitas virtus. Comis lobortis similis vero. Abbas ad aptent camur elit euismod iaceo incassum sino velit. Distineo duis ibidem imputo.\n\nEuismod oppeto refero vindico voco. Abico iustum jus minim mos odio quia quidem voco. Ad consectetuer conventio gilvus occuro os sudo ulciscor vulputate. Abdo abluo et paulatim vicis. Defui nimis olim. Aliquip distineo laoreet magna molior plaga valetudo voco. Damnum ea ideo lenis.\n\nAt ea huic neque nobis qui quia si tation valde. Capto eum imputo jumentum nunc saluto uxor vindico ymo. Cui humo pecus probo proprius ratis. Acsi erat hendrerit importunus in molior quae verto. At caecus dolus os suscipere vulpes. Inhibeo ut volutpat. Abdo abluo cogo ille iriure nunc patria utinam.\n\nCausa damnum eligo et iaceo ibidem loquor saluto similis typicus. Aliquip causa diam nibh os pecus ulciscor veniam. Causa duis exerci nisl os pneum singularis suscipit tum. Bene eligo esca eum jus sino vulpes. Aliquam appellatio enim euismod ille interdico populus quidem suscipere te. Luptatum pala praemitto quidne.\n\nDiam inhibeo iustum nostrud roto vulpes zelus. Abdo odio ullamcorper. Abluo blandit causa eligo gemino minim quidem voco. Abico consequat huic mauris olim praemitto. Aliquip distineo facilisis immitto jumentum modo nimis pagus refero vindico. Abluo adipiscing mauris. Bene duis esca incassum lobortis oppeto refero tamen verto.\n\nAliquam amet dolus erat gilvus laoreet lobortis macto nunc ymo. Capto damnum magna praemitto quis sagaciter validus vicis. Abdo autem conventio elit iustum luptatum quidne. Commoveo eligo erat eu interdico odio qui quidne saepius. Aliquam esse sagaciter vel. Capto enim eum iusto nimis nutus.\n\nEnim ille jus nibh paratus te velit. Ex iaceo letalis nibh patria pecus praesent sagaciter usitas. Antehabeo modo mos qui refoveo. Cogo laoreet plaga quadrum roto vindico voco. Dolor letalis roto scisco. Esse iriure pagus valetudo vulputate. Diam hos mos quis secundum te valetudo verto.\n\nCapto damnum ille ulciscor valde vulpes. At commoveo fere nostrud praemitto refoveo sino tego torqueo turpis. Modo mos olim vero. Lucidus nunc vindico virtus. Aliquip diam dolore elit natu quadrum utrum. Acsi amet bene commodo dolor eum mauris pneum quae ulciscor. Erat lobortis qui suscipit. Decet inhibeo nutus ymo.\n\nAmet ideo ille singularis tamen tego turpis vindico. Iaceo magna odio oppeto suscipit. Blandit gemino laoreet quidne. Immitto imputo mos suscipit tego ulciscor.\n\nDolus facilisis iaceo in jus quidem valetudo. Lenis luptatum quia tum. Conventio genitus uxor. Abigo dignissim vel. Facilisis feugiat iriure praesent sino usitas venio volutpat. At autem defui dignissim feugiat immitto singularis sudo. Lenis pertineo similis ullamcorper.\n\nAccumsan aliquip capto haero lenis natu qui sino virtus voco. Humo minim nostrud torqueo vereor. Aptent eligo magna pertineo pneum quadrum sed ut vel velit. Antehabeo elit incassum quidne sagaciter. Acsi decet eum iusto nibh odio os paulatim.\n\n",
+            "format": "plain_text",
+            "summary": "At gemino iaceo lucidus nunc quadrum quidem tation utrum vindico. Imputo natu tum. Augue lucidus macto molior. Acsi cui dolor eum exputo hendrerit iaceo. Cui damnum decet duis metuo saluto. Appellatio camur facilisi nisl praemitto uxor. Comis dolor tincidunt vindico. Erat eu persto quadrum vulpes.\n\nAbbas adipiscing bene comis in interdico neo nobis quadrum tum. Acsi appellatio distineo jumentum suscipit ullamcorper valde. Facilisi feugiat lobortis obruo probo quis. Autem dolor humo iriure similis usitas virtus. Comis lobortis similis vero. Abbas ad aptent camur elit euismod iaceo incassum sino velit. Distineo duis ibidem imputo.\n\nEuismod oppeto refero vindico voco. Abico iustum jus minim mos odio quia quidem voco. Ad consectetuer conventio gilvus occuro os sudo ulciscor vulputate. Abdo abluo et paulatim vicis. Defui nimis olim. Aliquip distineo laoreet magna molior plaga valetudo voco. Damnum ea ideo lenis.\n\nAt ea huic neque nobis qui quia si tation valde. Capto eum imputo jumentum nunc saluto uxor vindico ymo. Cui humo pecus probo proprius ratis. Acsi erat hendrerit importunus in molior quae verto. At caecus dolus os suscipere vulpes. Inhibeo ut volutpat. Abdo abluo cogo ille iriure nunc patria utinam.\n\nCausa damnum eligo et iaceo ibidem loquor saluto similis typicus. Aliquip causa diam nibh os pecus ulciscor veniam. Causa duis exerci nisl os pneum singularis suscipit tum. Bene eligo esca eum jus sino vulpes. Aliquam appellatio enim euismod ille interdico populus quidem suscipere te. Luptatum pala praemitto quidne.\n\nDiam inhibeo iustum nostrud roto vulpes zelus. Abdo odio ullamcorper. Abluo blandit causa eligo gemino minim quidem voco. Abico consequat huic mauris olim praemitto. Aliquip distineo facilisis immitto jumentum modo nimis pagus refero vindico. Abluo adipiscing mauris. Bene duis esca incassum lobortis oppeto refero tamen verto.\n\nAliquam amet dolus erat gilvus laoreet lobortis macto nunc ymo. Capto damnum magna praemitto quis sagaciter validus vicis. Abdo autem conventio elit iustum luptatum quidne. Commoveo eligo erat eu interdico odio qui quidne saepius. Aliquam esse sagaciter vel. Capto enim eum iusto nimis nutus.\n\nEnim ille jus nibh paratus te velit. Ex iaceo letalis nibh patria pecus praesent sagaciter usitas. Antehabeo modo mos qui refoveo. Cogo laoreet plaga quadrum roto vindico voco. Dolor letalis roto scisco. Esse iriure pagus valetudo vulputate. Diam hos mos quis secundum te valetudo verto.\n\nCapto damnum ille ulciscor valde vulpes. At commoveo fere nostrud praemitto refoveo sino tego torqueo turpis. Modo mos olim vero. Lucidus nunc vindico virtus. Aliquip diam dolore elit natu quadrum utrum. Acsi amet bene commodo dolor eum mauris pneum quae ulciscor. Erat lobortis qui suscipit. Decet inhibeo nutus ymo.\n\nAmet ideo ille singularis tamen tego turpis vindico. Iaceo magna odio oppeto suscipit. Blandit gemino laoreet quidne. Immitto imputo mos suscipit tego ulciscor.\n\nDolus facilisis iaceo in jus quidem valetudo. Lenis luptatum quia tum. Conventio genitus uxor. Abigo dignissim vel. Facilisis feugiat iriure praesent sino usitas venio volutpat. At autem defui dignissim feugiat immitto singularis sudo. Lenis pertineo similis ullamcorper.\n\nAccumsan aliquip capto haero lenis natu qui sino virtus voco. Humo minim nostrud torqueo vereor. Aptent eligo magna pertineo pneum quadrum sed ut vel velit. Antehabeo elit incassum quidne sagaciter. Acsi decet eum iusto nibh odio os paulatim.\n\n",
+            "lang": "en"
+        }
+    ],
+    "comment_forum": [
+        {
+            "status": 1,
+            "cid": 0,
+            "last_comment_timestamp": 1513632171,
+            "last_comment_name": null,
+            "last_comment_uid": 11,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ],
+    "field_voting": [
+        {
+            "status": 0
+        }
+    ]
+}

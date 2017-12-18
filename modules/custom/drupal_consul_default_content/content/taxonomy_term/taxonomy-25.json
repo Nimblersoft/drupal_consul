@@ -1,0 +1,55 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/25?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/district"
+        }
+    },
+    "tid": [
+        {
+            "value": 25
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4e9645f0-62aa-4602-a1f6-14666e466664"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "district"
+        }
+    ],
+    "name": [
+        {
+            "value": "District G",
+            "lang": "es"
+        }
+    ],
+    "weight": [
+        {
+            "value": 6
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-15T18:36:26+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ]
+}

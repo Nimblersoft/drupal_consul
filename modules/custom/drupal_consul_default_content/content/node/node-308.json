@@ -1,0 +1,223 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/proposals\/nibh?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/proposal"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/58?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/uid": [
+            {
+                "href": "http:\/\/default\/user\/58?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/field_documentation": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2017-12\/hxsMnxemHc.txt"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 308
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7f732b4c-dfa5-40eb-9912-297fbfe2f8e0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 328
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "proposal"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-18T21:33:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/58?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1dd998fd-292f-4674-adab-b331c43ff6bb"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/58?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1dd998fd-292f-4674-adab-b331c43ff6bb"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/field_documentation": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2017-12\/hxsMnxemHc.txt"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9ffb7793-57d8-4a1b-b80c-1861f5766094"
+                    }
+                ],
+                "uri": [
+                    {
+                        "value": "http:\/\/default\/sites\/default\/files\/2017-12\/hxsMnxemHc.txt"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4681571d-2e96-46e5-be00-4664725063a6"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Nibh",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-18T19:14:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-18T21:33:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/proposals\/nibh",
+            "pid": 112,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Aptent nimis praemitto verto. Abbas aliquam eros in macto pecus quidem torqueo. Brevitas comis defui esse facilisi hendrerit iusto nulla persto te.\n\nAliquip immitto modo vicis. Enim molior proprius vereor. Abico amet eu feugiat paratus quidne valde validus. Duis ex facilisi neque persto roto tamen veniam. Defui dignissim eum iustum metuo meus paulatim pecus quia. Ex paulatim suscipere. Defui facilisis huic neo neque ymo.\n\nDistineo illum imputo incassum melior occuro te tincidunt. Gravis hos melior plaga. Appellatio conventio gilvus inhibeo ludus saepius. Caecus immitto imputo magna. Camur huic nimis quis sagaciter tum valetudo. Erat oppeto saepius velit vero. Camur decet distineo ludus magna pala. Adipiscing exputo gemino ille metuo molior nimis voco wisi.\n\nBrevitas caecus consectetuer defui genitus iriure secundum ulciscor veniam. Eligo haero importunus magna pecus refoveo. At consequat eum hos imputo molior mos ratis saluto. Lenis quidne refero. Duis facilisis gilvus luctus modo obruo olim oppeto pagus pecus.\n\nAntehabeo et hendrerit iaceo neque occuro populus quis si. Damnum dignissim enim ideo imputo iusto occuro persto quidem ut. Genitus odio ratis. Aptent dolore haero lobortis occuro ratis valetudo. Amet elit plaga populus tamen. Antehabeo dolus huic jus lucidus pertineo turpis usitas valde zelus. Acsi distineo ex melior patria saluto. Ad eum inhibeo probo torqueo utinam. Illum nunc praemitto quis sagaciter sino tation tego valetudo.\n\nAbbas aliquam augue brevitas eros genitus utrum volutpat. Ex gravis imputo in quis ratis similis valde. Eligo laoreet loquor minim obruo premo tum. Damnum et gilvus pala suscipit ulciscor. Ad elit exputo letalis molior pneum tation.\n\nBrevitas decet gravis nostrud nunc praesent tation te volutpat. Appellatio caecus loquor luctus magna mauris nulla scisco secundum vel. Abico appellatio gravis huic ille modo nulla paulatim. Aptent dignissim genitus lenis nunc ratis ulciscor utinam vulputate wisi.\n\nAugue capto ea eligo euismod obruo quadrum quidem refero si. Abico aliquam amet ea importunus quae refero tum typicus. Ibidem probo tego torqueo turpis voco.\n\nAt illum immitto olim. Blandit capto comis dignissim dolor lenis oppeto. Fere lenis nobis refoveo tation. Aliquam appellatio augue comis iriure sino usitas utrum. Aliquam dolore elit eros huic nostrud veniam virtus. Nobis quae scisco. Amet at decet eligo genitus incassum sagaciter tum. Laoreet macto verto. Consectetuer macto tego. Consectetuer conventio gravis jus laoreet lenis os paratus plaga.\n\nAt cogo dolus ex humo ideo laoreet valetudo venio. Causa interdico nimis velit. Duis gemino jumentum. Aliquam capto eligo enim esca sit. At immitto similis uxor. Capto commoveo ea neque quadrum rusticus sed verto. Camur esca facilisi feugiat nimis olim saepius tation utrum. Dolore et gilvus melior modo qui refero te. Ea eu exerci imputo pagus quis.\n\nCogo commodo esse. Camur capto commodo in pala patria usitas ymo. Ea oppeto vulpes. Abluo huic obruo validus. Decet dignissim dolor euismod ibidem laoreet magna. Elit similis veniam. Esse persto te utinam. Defui dolor gravis importunus inhibeo luptatum mauris metuo nostrud. Brevitas duis quadrum tation ut vero. Gemino illum nutus olim pala quae quis tincidunt veniam. Abigo amet feugiat metuo quadrum tincidunt validus venio volutpat.\n\nCapto melior metuo si tation venio. Comis dignissim elit iusto nostrud obruo tamen verto. Nostrud scisco sino utinam. Humo jumentum nobis oppeto quia saluto. Aliquip distineo esse pneum tation voco.\n\n",
+            "format": "plain_text",
+            "summary": "Aptent nimis praemitto verto. Abbas aliquam eros in macto pecus quidem torqueo. Brevitas comis defui esse facilisi hendrerit iusto nulla persto te.\n\nAliquip immitto modo vicis. Enim molior proprius vereor. Abico amet eu feugiat paratus quidne valde validus. Duis ex facilisi neque persto roto tamen veniam. Defui dignissim eum iustum metuo meus paulatim pecus quia. Ex paulatim suscipere. Defui facilisis huic neo neque ymo.\n\nDistineo illum imputo incassum melior occuro te tincidunt. Gravis hos melior plaga. Appellatio conventio gilvus inhibeo ludus saepius. Caecus immitto imputo magna. Camur huic nimis quis sagaciter tum valetudo. Erat oppeto saepius velit vero. Camur decet distineo ludus magna pala. Adipiscing exputo gemino ille metuo molior nimis voco wisi.\n\nBrevitas caecus consectetuer defui genitus iriure secundum ulciscor veniam. Eligo haero importunus magna pecus refoveo. At consequat eum hos imputo molior mos ratis saluto. Lenis quidne refero. Duis facilisis gilvus luctus modo obruo olim oppeto pagus pecus.\n\nAntehabeo et hendrerit iaceo neque occuro populus quis si. Damnum dignissim enim ideo imputo iusto occuro persto quidem ut. Genitus odio ratis. Aptent dolore haero lobortis occuro ratis valetudo. Amet elit plaga populus tamen. Antehabeo dolus huic jus lucidus pertineo turpis usitas valde zelus. Acsi distineo ex melior patria saluto. Ad eum inhibeo probo torqueo utinam. Illum nunc praemitto quis sagaciter sino tation tego valetudo.\n\nAbbas aliquam augue brevitas eros genitus utrum volutpat. Ex gravis imputo in quis ratis similis valde. Eligo laoreet loquor minim obruo premo tum. Damnum et gilvus pala suscipit ulciscor. Ad elit exputo letalis molior pneum tation.\n\nBrevitas decet gravis nostrud nunc praesent tation te volutpat. Appellatio caecus loquor luctus magna mauris nulla scisco secundum vel. Abico appellatio gravis huic ille modo nulla paulatim. Aptent dignissim genitus lenis nunc ratis ulciscor utinam vulputate wisi.\n\nAugue capto ea eligo euismod obruo quadrum quidem refero si. Abico aliquam amet ea importunus quae refero tum typicus. Ibidem probo tego torqueo turpis voco.\n\nAt illum immitto olim. Blandit capto comis dignissim dolor lenis oppeto. Fere lenis nobis refoveo tation. Aliquam appellatio augue comis iriure sino usitas utrum. Aliquam dolore elit eros huic nostrud veniam virtus. Nobis quae scisco. Amet at decet eligo genitus incassum sagaciter tum. Laoreet macto verto. Consectetuer macto tego. Consectetuer conventio gravis jus laoreet lenis os paratus plaga.\n\nAt cogo dolus ex humo ideo laoreet valetudo venio. Causa interdico nimis velit. Duis gemino jumentum. Aliquam capto eligo enim esca sit. At immitto similis uxor. Capto commoveo ea neque quadrum rusticus sed verto. Camur esca facilisi feugiat nimis olim saepius tation utrum. Dolore et gilvus melior modo qui refero te. Ea eu exerci imputo pagus quis.\n\nCogo commodo esse. Camur capto commodo in pala patria usitas ymo. Ea oppeto vulpes. Abluo huic obruo validus. Decet dignissim dolor euismod ibidem laoreet magna. Elit similis veniam. Esse persto te utinam. Defui dolor gravis importunus inhibeo luptatum mauris metuo nostrud. Brevitas duis quadrum tation ut vero. Gemino illum nutus olim pala quae quis tincidunt veniam. Abigo amet feugiat metuo quadrum tincidunt validus venio volutpat.\n\nCapto melior metuo si tation venio. Comis dignissim elit iusto nostrud obruo tamen verto. Nostrud scisco sino utinam. Humo jumentum nobis oppeto quia saluto. Aliquip distineo esse pneum tation voco.\n\n",
+            "lang": "en"
+        }
+    ],
+    "comment": [
+        {
+            "status": 0,
+            "cid": 0,
+            "last_comment_timestamp": 1513632794,
+            "last_comment_name": null,
+            "last_comment_uid": 58,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ],
+    "field_required_voting": [
+        {
+            "value": 974
+        }
+    ]
+}

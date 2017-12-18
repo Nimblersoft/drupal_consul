@@ -1,0 +1,249 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/budgets\/capto-euismod-nulla-ymo?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/budget"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/32?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/uid": [
+            {
+                "href": "http:\/\/default\/user\/32?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_district": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/25?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_status": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/32?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 318
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2e425379-3cfd-4005-bbf7-c816af0edcb9"
+        }
+    ],
+    "vid": [
+        {
+            "value": 338
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "budget"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-18T21:48:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/32?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e57c2825-c16e-43c3-adc5-87f6ff81c19e"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/32?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e57c2825-c16e-43c3-adc5-87f6ff81c19e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_district": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/25?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/district"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4e9645f0-62aa-4602-a1f6-14666e466664"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_status": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/32?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/project_status"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e6880663-f17a-4f32-b707-768c42af7de2"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9e1b7b41-b7a0-488f-a67d-1c751e3c957c"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9e1b7b41-b7a0-488f-a67d-1c751e3c957c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Capto Euismod Nulla Ymo",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-12T07:54:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-18T21:48:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/budgets\/capto-euismod-nulla-ymo",
+            "pid": 117,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Cogo ille roto. Ad aliquam decet jumentum melior rusticus ut utrum validus. Conventio dolore ibidem nibh pneum suscipit veniam. Bene consequat letalis nimis scisco ullamcorper. Abluo enim jumentum jus tum.\n\nDefui eros esse iriure secundum. Cui exerci feugiat persto quibus refero sagaciter sit virtus. Aptent at diam distineo utinam. Consequat illum incassum veniam volutpat.\n\nHos jumentum nulla suscipere wisi. Eu iaceo jugis lenis minim paulatim. Aptent inhibeo jus praemitto refero sagaciter. Duis fere molior neque qui sit suscipere valde. Defui eros iriure meus molior natu odio pecus suscipit virtus. Aliquip appellatio distineo facilisi ludus persto singularis sit vulputate.\n\nBrevitas exputo humo meus rusticus tation. Diam eum secundum valetudo. Ad oppeto persto similis tamen valetudo vel. Abbas comis eu facilisi meus nutus obruo premo quibus typicus. Jus nobis typicus. Amet dolus elit nisl odio paratus proprius qui sino typicus. Ad capto eum luptatum quadrum quibus usitas vel. Comis dolus inhibeo interdico paratus similis valetudo vel.\n\nBene consectetuer decet facilisis gravis proprius sed. Aliquip dolor feugiat populus proprius refoveo. Abdo acsi appellatio bene camur dignissim uxor ymo. Abigo euismod iusto iustum mauris odio typicus verto. Abico jugis nulla pecus plaga quidne singularis tego ulciscor ullamcorper.\n\nAt feugiat gravis haero macto persto. Eligo huic importunus nibh. Distineo letalis neo paulatim refoveo secundum suscipere verto wisi ymo. Capto conventio dolus eros facilisis incassum ymo. Commodo damnum incassum nobis pala uxor. Enim humo saluto. Damnum dolor iusto lenis odio saluto torqueo voco.\n\nCaecus importunus imputo oppeto praemitto tation tincidunt. Antehabeo autem brevitas erat esse hendrerit importunus macto quidem. Abluo eu os praesent tego utinam. Distineo duis nibh nisl veniam. Aliquam cogo decet exerci modo sed singularis valde virtus.\n\nComis commoveo gravis oppeto premo. Eros ex iaceo ille oppeto sagaciter tego utinam valde verto. Accumsan conventio quidem uxor. Meus tation ulciscor. Antehabeo ea ideo immitto nobis olim vulputate. Abbas immitto vero. Cui hendrerit interdico luctus praesent quidne ratis. Cogo decet euismod facilisis humo nostrud nulla tamen utinam.\n\nConventio in os uxor. Gilvus illum iusto nostrud nunc qui ullamcorper. Abico abigo distineo eu nimis obruo sagaciter similis venio. Abico exputo genitus hos importunus rusticus. Gilvus oppeto paratus. Feugiat obruo pecus praesent veniam. Appellatio illum jumentum pagus patria tego ullamcorper ut. Camur cui jus mauris melior modo mos ulciscor usitas utinam. Bene commodo enim eros feugiat ideo nobis nunc.\n\nAntehabeo consectetuer dolus ex in luctus natu saepius tamen. Ad augue caecus capto decet letalis nibh nulla tation venio. Aliquam consectetuer gilvus luctus neo. Elit macto pertineo suscipit vel vicis. Blandit distineo lobortis luctus pagus. Aliquip et inhibeo refero ymo. Accumsan inhibeo lenis occuro vulputate. Abluo capto metuo meus roto secundum similis torqueo. Camur defui dignissim neo populus praesent ratis.\n\nAbbas gemino ludus. Quibus sudo typicus vel vero. Abbas euismod roto. Eligo gravis ibidem luptatum nostrud pertineo ulciscor. Eu luctus plaga praemitto quia refero scisco valde. Enim exerci genitus quae rusticus sino ulciscor. Eros humo ludus meus natu oppeto patria suscipit. Dolus enim luptatum persto wisi. Abico commoveo eros esca incassum macto nunc occuro ymo.\n\nAbbas commoveo iaceo jugis neo nostrud utinam venio vero. Comis commoveo consectetuer laoreet lenis modo nibh quidne si virtus. Antehabeo decet olim paulatim probo secundum tamen. Adipiscing iusto vel vereor verto vicis. Lenis lobortis vereor zelus. Abbas comis hos ludus nobis sino uxor.\n\n",
+            "format": "plain_text",
+            "summary": "Cogo ille roto. Ad aliquam decet jumentum melior rusticus ut utrum validus. Conventio dolore ibidem nibh pneum suscipit veniam. Bene consequat letalis nimis scisco ullamcorper. Abluo enim jumentum jus tum.\n\nDefui eros esse iriure secundum. Cui exerci feugiat persto quibus refero sagaciter sit virtus. Aptent at diam distineo utinam. Consequat illum incassum veniam volutpat.\n\nHos jumentum nulla suscipere wisi. Eu iaceo jugis lenis minim paulatim. Aptent inhibeo jus praemitto refero sagaciter. Duis fere molior neque qui sit suscipere valde. Defui eros iriure meus molior natu odio pecus suscipit virtus. Aliquip appellatio distineo facilisi ludus persto singularis sit vulputate.\n\nBrevitas exputo humo meus rusticus tation. Diam eum secundum valetudo. Ad oppeto persto similis tamen valetudo vel. Abbas comis eu facilisi meus nutus obruo premo quibus typicus. Jus nobis typicus. Amet dolus elit nisl odio paratus proprius qui sino typicus. Ad capto eum luptatum quadrum quibus usitas vel. Comis dolus inhibeo interdico paratus similis valetudo vel.\n\nBene consectetuer decet facilisis gravis proprius sed. Aliquip dolor feugiat populus proprius refoveo. Abdo acsi appellatio bene camur dignissim uxor ymo. Abigo euismod iusto iustum mauris odio typicus verto. Abico jugis nulla pecus plaga quidne singularis tego ulciscor ullamcorper.\n\nAt feugiat gravis haero macto persto. Eligo huic importunus nibh. Distineo letalis neo paulatim refoveo secundum suscipere verto wisi ymo. Capto conventio dolus eros facilisis incassum ymo. Commodo damnum incassum nobis pala uxor. Enim humo saluto. Damnum dolor iusto lenis odio saluto torqueo voco.\n\nCaecus importunus imputo oppeto praemitto tation tincidunt. Antehabeo autem brevitas erat esse hendrerit importunus macto quidem. Abluo eu os praesent tego utinam. Distineo duis nibh nisl veniam. Aliquam cogo decet exerci modo sed singularis valde virtus.\n\nComis commoveo gravis oppeto premo. Eros ex iaceo ille oppeto sagaciter tego utinam valde verto. Accumsan conventio quidem uxor. Meus tation ulciscor. Antehabeo ea ideo immitto nobis olim vulputate. Abbas immitto vero. Cui hendrerit interdico luctus praesent quidne ratis. Cogo decet euismod facilisis humo nostrud nulla tamen utinam.\n\nConventio in os uxor. Gilvus illum iusto nostrud nunc qui ullamcorper. Abico abigo distineo eu nimis obruo sagaciter similis venio. Abico exputo genitus hos importunus rusticus. Gilvus oppeto paratus. Feugiat obruo pecus praesent veniam. Appellatio illum jumentum pagus patria tego ullamcorper ut. Camur cui jus mauris melior modo mos ulciscor usitas utinam. Bene commodo enim eros feugiat ideo nobis nunc.\n\nAntehabeo consectetuer dolus ex in luctus natu saepius tamen. Ad augue caecus capto decet letalis nibh nulla tation venio. Aliquam consectetuer gilvus luctus neo. Elit macto pertineo suscipit vel vicis. Blandit distineo lobortis luctus pagus. Aliquip et inhibeo refero ymo. Accumsan inhibeo lenis occuro vulputate. Abluo capto metuo meus roto secundum similis torqueo. Camur defui dignissim neo populus praesent ratis.\n\nAbbas gemino ludus. Quibus sudo typicus vel vero. Abbas euismod roto. Eligo gravis ibidem luptatum nostrud pertineo ulciscor. Eu luctus plaga praemitto quia refero scisco valde. Enim exerci genitus quae rusticus sino ulciscor. Eros humo ludus meus natu oppeto patria suscipit. Dolus enim luptatum persto wisi. Abico commoveo eros esca incassum macto nunc occuro ymo.\n\nAbbas commoveo iaceo jugis neo nostrud utinam venio vero. Comis commoveo consectetuer laoreet lenis modo nibh quidne si virtus. Antehabeo decet olim paulatim probo secundum tamen. Adipiscing iusto vel vereor verto vicis. Lenis lobortis vereor zelus. Abbas comis hos ludus nobis sino uxor.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_cost": [
+        {
+            "value": 4.05043e+22
+        }
+    ]
+}

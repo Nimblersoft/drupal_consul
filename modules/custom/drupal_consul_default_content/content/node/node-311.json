@@ -1,0 +1,223 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/proposals\/comis-defui-humo-rusticus?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/proposal"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/29?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/uid": [
+            {
+                "href": "http:\/\/default\/user\/29?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/field_documentation": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2017-12\/fTR2Rk9hHi.txt"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 311
+        }
+    ],
+    "uuid": [
+        {
+            "value": "802c0e6d-1aba-445d-b0a9-9461e2981389"
+        }
+    ],
+    "vid": [
+        {
+            "value": 331
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "proposal"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-18T21:33:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/29?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "554e17fb-9ea5-4fbd-8010-1daf011d95fb"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/29?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "554e17fb-9ea5-4fbd-8010-1daf011d95fb"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/field_documentation": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2017-12\/fTR2Rk9hHi.txt"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fc190b3c-df60-4f6e-b264-74d7b3349bae"
+                    }
+                ],
+                "uri": [
+                    {
+                        "value": "http:\/\/default\/sites\/default\/files\/2017-12\/fTR2Rk9hHi.txt"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9e1b7b41-b7a0-488f-a67d-1c751e3c957c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Comis Defui Humo Rusticus",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-17T19:47:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-18T21:33:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/proposals\/comis-defui-humo-rusticus",
+            "pid": 115,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Brevitas consequat incassum quia tego. Esse euismod facilisis olim sit suscipit. Abluo autem enim lobortis meus natu premo valetudo ymo. Hos metuo praemitto. Consequat defui dolor loquor minim paulatim turpis vulputate. Abbas at consequat defui humo melior praesent rusticus tincidunt. Aliquip dolore pala. Capto euismod in lobortis rusticus si tego.\n\nImputo te turpis typicus. At haero jus nibh nobis proprius tamen usitas velit. Dolore exerci tincidunt. Consectetuer metuo pneum sed verto. Augue genitus luptatum metuo odio roto venio. Hendrerit jugis sudo tamen. Caecus dignissim iriure saluto. Dolore dolus os paulatim pertineo sed utrum virtus. Consectetuer humo ibidem loquor ludus quibus utrum.\n\nBrevitas eu inhibeo nimis scisco singularis te tum ulciscor ullamcorper. Accumsan appellatio neo saluto validus. Abico hendrerit interdico obruo pecus.\n\nCogo consequat facilisis nunc paulatim quibus suscipit vero. Damnum esse feugiat immitto in paratus praesent sagaciter. Caecus natu si tation. Abdo antehabeo aptent fere ludus nunc quidem torqueo ullamcorper.\n\nAccumsan causa diam dolus meus neque oppeto rusticus ullamcorper usitas. Amet commoveo gemino iriure singularis sudo verto. Ea erat mos proprius ulciscor vicis. Brevitas consequat defui duis eros feugiat imputo mauris sed suscipit.\n\nAntehabeo autem dignissim dolus refero tamen uxor. Inhibeo metuo quadrum venio vindico virtus voco. Autem commoveo dolor inhibeo lenis tum ullamcorper vel vulputate. Abico bene esca metuo neque persto proprius.\n\nAbbas camur dolor esca immitto neo sed. Letalis odio paulatim tincidunt veniam. Capto cogo lenis plaga valde veniam. Commoveo haero incassum lenis quidem ulciscor usitas. Aliquip capto incassum jumentum mos nimis patria quis ymo. Abigo defui fere illum iriure quae quia. Decet eu verto vindico vulputate. Dolore ea ideo nutus paratus utinam.\n\nAntehabeo bene blandit conventio eligo immitto molior persto ymo. Antehabeo facilisi nostrud tation ullamcorper uxor. Cogo incassum inhibeo jugis paulatim typicus valde. Ea jumentum neo sed sino tego velit. Abdo abigo acsi facilisi pagus utinam veniam. Brevitas damnum dolor modo neo nulla oppeto os scisco.\n\nAbdo commodo duis eum nostrud nunc sagaciter te vicis vindico. Brevitas illum lobortis refero ut. Abbas exputo natu persto sed vero vindico wisi. Ad consequat ludus mos sagaciter verto. Cogo commodo et olim suscipere ulciscor ullamcorper.\n\nAbbas commodo erat gravis humo immitto mos quis singularis. Conventio eligo erat feugiat hos obruo valde. Consequat eum haero sagaciter usitas zelus. Amet laoreet luptatum nostrud vero voco.\n\nAdipiscing antehabeo blandit euismod jus letalis melior pecus vel verto. Ad causa decet distineo facilisis iusto laoreet olim qui. Nutus odio pagus quidem refero verto. Comis diam gemino letalis ludus nimis pecus sed torqueo. Eros euismod inhibeo jugis lucidus si utinam.\n\nDignissim haero hos praesent si tamen valde validus. Dolore gilvus premo virtus. Caecus cui decet praemitto ullamcorper voco. Elit jugis oppeto praemitto si torqueo validus. Jugis praemitto qui volutpat wisi. Iriure plaga pneum tego venio.\n\n",
+            "format": "plain_text",
+            "summary": "Brevitas consequat incassum quia tego. Esse euismod facilisis olim sit suscipit. Abluo autem enim lobortis meus natu premo valetudo ymo. Hos metuo praemitto. Consequat defui dolor loquor minim paulatim turpis vulputate. Abbas at consequat defui humo melior praesent rusticus tincidunt. Aliquip dolore pala. Capto euismod in lobortis rusticus si tego.\n\nImputo te turpis typicus. At haero jus nibh nobis proprius tamen usitas velit. Dolore exerci tincidunt. Consectetuer metuo pneum sed verto. Augue genitus luptatum metuo odio roto venio. Hendrerit jugis sudo tamen. Caecus dignissim iriure saluto. Dolore dolus os paulatim pertineo sed utrum virtus. Consectetuer humo ibidem loquor ludus quibus utrum.\n\nBrevitas eu inhibeo nimis scisco singularis te tum ulciscor ullamcorper. Accumsan appellatio neo saluto validus. Abico hendrerit interdico obruo pecus.\n\nCogo consequat facilisis nunc paulatim quibus suscipit vero. Damnum esse feugiat immitto in paratus praesent sagaciter. Caecus natu si tation. Abdo antehabeo aptent fere ludus nunc quidem torqueo ullamcorper.\n\nAccumsan causa diam dolus meus neque oppeto rusticus ullamcorper usitas. Amet commoveo gemino iriure singularis sudo verto. Ea erat mos proprius ulciscor vicis. Brevitas consequat defui duis eros feugiat imputo mauris sed suscipit.\n\nAntehabeo autem dignissim dolus refero tamen uxor. Inhibeo metuo quadrum venio vindico virtus voco. Autem commoveo dolor inhibeo lenis tum ullamcorper vel vulputate. Abico bene esca metuo neque persto proprius.\n\nAbbas camur dolor esca immitto neo sed. Letalis odio paulatim tincidunt veniam. Capto cogo lenis plaga valde veniam. Commoveo haero incassum lenis quidem ulciscor usitas. Aliquip capto incassum jumentum mos nimis patria quis ymo. Abigo defui fere illum iriure quae quia. Decet eu verto vindico vulputate. Dolore ea ideo nutus paratus utinam.\n\nAntehabeo bene blandit conventio eligo immitto molior persto ymo. Antehabeo facilisi nostrud tation ullamcorper uxor. Cogo incassum inhibeo jugis paulatim typicus valde. Ea jumentum neo sed sino tego velit. Abdo abigo acsi facilisi pagus utinam veniam. Brevitas damnum dolor modo neo nulla oppeto os scisco.\n\nAbdo commodo duis eum nostrud nunc sagaciter te vicis vindico. Brevitas illum lobortis refero ut. Abbas exputo natu persto sed vero vindico wisi. Ad consequat ludus mos sagaciter verto. Cogo commodo et olim suscipere ulciscor ullamcorper.\n\nAbbas commodo erat gravis humo immitto mos quis singularis. Conventio eligo erat feugiat hos obruo valde. Consequat eum haero sagaciter usitas zelus. Amet laoreet luptatum nostrud vero voco.\n\nAdipiscing antehabeo blandit euismod jus letalis melior pecus vel verto. Ad causa decet distineo facilisis iusto laoreet olim qui. Nutus odio pagus quidem refero verto. Comis diam gemino letalis ludus nimis pecus sed torqueo. Eros euismod inhibeo jugis lucidus si utinam.\n\nDignissim haero hos praesent si tamen valde validus. Dolore gilvus premo virtus. Caecus cui decet praemitto ullamcorper voco. Elit jugis oppeto praemitto si torqueo validus. Jugis praemitto qui volutpat wisi. Iriure plaga pneum tego venio.\n\n",
+            "lang": "en"
+        }
+    ],
+    "comment": [
+        {
+            "status": 1,
+            "cid": 0,
+            "last_comment_timestamp": 1513632794,
+            "last_comment_name": null,
+            "last_comment_uid": 29,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ],
+    "field_required_voting": [
+        {
+            "value": 107
+        }
+    ]
+}

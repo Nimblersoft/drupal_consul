@@ -1,0 +1,196 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/debates\/ex-quia?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/forum"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/11?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/uid": [
+            {
+                "href": "http:\/\/default\/user\/11?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/taxonomy_forums": [
+            {
+                "href": "http:\/\/default\/debates?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 307
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8940a55f-0ce7-47bb-9e65-0d60030ae147"
+        }
+    ],
+    "vid": [
+        {
+            "value": 327
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "forum"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-18T21:22:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "417c1c9f-4373-4067-b258-5d61240b54dc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "417c1c9f-4373-4067-b258-5d61240b54dc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/forum\/taxonomy_forums": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/debates?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/forums"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a9cd7e3d-90b9-421a-befa-eceb89328962"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Ex Quia",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-13T07:53:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-18T21:22:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/debates\/ex-quia",
+            "pid": 111,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Causa dolor exerci melior nibh patria premo tum. Blandit pagus praemitto sed ymo. Abbas augue duis erat facilisis imputo nisl roto zelus. Causa defui fere mauris occuro pecus persto quae secundum. Iusto natu uxor. Augue elit refero. Consectetuer facilisis feugiat mauris odio pecus. At commodo pagus velit. Accumsan antehabeo dignissim dolore elit incassum luptatum vicis.\n\nDecet ea jumentum pagus proprius. Hendrerit iusto modo neo occuro plaga populus praemitto saluto suscipere. Antehabeo conventio esca humo jus ludus. Commodo paulatim quis sed. Blandit diam erat ludus magna sagaciter tation tum virtus. Comis eros os qui saluto sed suscipere te utinam vulpes. Ad bene exputo ibidem interdico luptatum metuo oppeto tego ut.\n\nOs sed ut. Erat esca mauris pecus utinam. Aliquam brevitas cogo consequat facilisi hos sit typicus valetudo vindico. Abdo eligo virtus. Premo quibus vindico. Consectetuer quibus scisco. Causa genitus laoreet lucidus plaga probo quis venio. Adipiscing haero hendrerit melior modo nutus olim quis si sit.\n\nComis eros eum pertineo pneum ulciscor. Decet feugiat quae sed vel. Ad dolor esca gilvus iaceo nibh plaga secundum valetudo virtus. Accumsan aliquip decet facilisis haero melior proprius. Abico et eu meus ratis tego. Facilisis gemino nostrud si volutpat.\n\nDistineo importunus imputo inhibeo letalis olim qui ratis sed vel. Causa enim eros eum inhibeo metuo molior patria quae. Ex humo importunus laoreet modo quidem. Iusto pertineo sed utinam. Aptent nunc saepius velit veniam. Appellatio erat ex inhibeo neo refoveo sudo typicus ullamcorper verto. Accumsan comis modo patria quadrum tamen vicis. Decet euismod quadrum validus. Abbas consequat nutus.\n\nCogo consectetuer exputo facilisi facilisis immitto imputo mos proprius saluto. Abbas conventio duis elit huic nibh pala similis. Ad dignissim ea ideo saepius secundum wisi. Eros ibidem praemitto rusticus similis valde. Importunus in quadrum valde. Abigo defui enim erat illum natu oppeto pertineo uxor voco.\n\nAdipiscing lucidus modo nulla. In nunc occuro plaga quadrum quia suscipit tincidunt virtus. Odio quae validus zelus. Abdo consequat inhibeo jugis pagus. Augue brevitas cui nibh si sudo. Appellatio diam haero imputo paratus similis uxor.\n\nAt cogo diam duis importunus lobortis pala probo. Exputo ille in neo nibh pagus tego utrum. Aptent incassum tamen. Aptent camur dolor eligo ex metuo obruo proprius ulciscor ut.\n\nBlandit comis diam luptatum molior nostrud quibus si. Lucidus quidem zelus. Camur commodo decet imputo inhibeo iriure mos nisl si. Accumsan consequat defui erat esca facilisis roto.\n\nDamnum luptatum mauris neo nulla scisco singularis ulciscor wisi. Defui iustum modo nisl pecus. Eu letalis rusticus vicis. Abigo augue causa nunc valde. Augue camur euismod gravis minim os.\n\nAbbas augue fere gravis huic jus nulla virtus vulpes. Cogo dolore rusticus. Consequat ideo lenis nutus patria vero ymo. Caecus letalis loquor pala paratus persto vereor.\n\nAbico ad elit haero pneum saluto sudo. Consectetuer eum gravis qui sudo utrum verto. Camur interdico torqueo. Abigo consectetuer dignissim nimis olim paratus typicus. Esca gemino similis vicis.\n\n",
+            "format": "plain_text",
+            "summary": "Causa dolor exerci melior nibh patria premo tum. Blandit pagus praemitto sed ymo. Abbas augue duis erat facilisis imputo nisl roto zelus. Causa defui fere mauris occuro pecus persto quae secundum. Iusto natu uxor. Augue elit refero. Consectetuer facilisis feugiat mauris odio pecus. At commodo pagus velit. Accumsan antehabeo dignissim dolore elit incassum luptatum vicis.\n\nDecet ea jumentum pagus proprius. Hendrerit iusto modo neo occuro plaga populus praemitto saluto suscipere. Antehabeo conventio esca humo jus ludus. Commodo paulatim quis sed. Blandit diam erat ludus magna sagaciter tation tum virtus. Comis eros os qui saluto sed suscipere te utinam vulpes. Ad bene exputo ibidem interdico luptatum metuo oppeto tego ut.\n\nOs sed ut. Erat esca mauris pecus utinam. Aliquam brevitas cogo consequat facilisi hos sit typicus valetudo vindico. Abdo eligo virtus. Premo quibus vindico. Consectetuer quibus scisco. Causa genitus laoreet lucidus plaga probo quis venio. Adipiscing haero hendrerit melior modo nutus olim quis si sit.\n\nComis eros eum pertineo pneum ulciscor. Decet feugiat quae sed vel. Ad dolor esca gilvus iaceo nibh plaga secundum valetudo virtus. Accumsan aliquip decet facilisis haero melior proprius. Abico et eu meus ratis tego. Facilisis gemino nostrud si volutpat.\n\nDistineo importunus imputo inhibeo letalis olim qui ratis sed vel. Causa enim eros eum inhibeo metuo molior patria quae. Ex humo importunus laoreet modo quidem. Iusto pertineo sed utinam. Aptent nunc saepius velit veniam. Appellatio erat ex inhibeo neo refoveo sudo typicus ullamcorper verto. Accumsan comis modo patria quadrum tamen vicis. Decet euismod quadrum validus. Abbas consequat nutus.\n\nCogo consectetuer exputo facilisi facilisis immitto imputo mos proprius saluto. Abbas conventio duis elit huic nibh pala similis. Ad dignissim ea ideo saepius secundum wisi. Eros ibidem praemitto rusticus similis valde. Importunus in quadrum valde. Abigo defui enim erat illum natu oppeto pertineo uxor voco.\n\nAdipiscing lucidus modo nulla. In nunc occuro plaga quadrum quia suscipit tincidunt virtus. Odio quae validus zelus. Abdo consequat inhibeo jugis pagus. Augue brevitas cui nibh si sudo. Appellatio diam haero imputo paratus similis uxor.\n\nAt cogo diam duis importunus lobortis pala probo. Exputo ille in neo nibh pagus tego utrum. Aptent incassum tamen. Aptent camur dolor eligo ex metuo obruo proprius ulciscor ut.\n\nBlandit comis diam luptatum molior nostrud quibus si. Lucidus quidem zelus. Camur commodo decet imputo inhibeo iriure mos nisl si. Accumsan consequat defui erat esca facilisis roto.\n\nDamnum luptatum mauris neo nulla scisco singularis ulciscor wisi. Defui iustum modo nisl pecus. Eu letalis rusticus vicis. Abigo augue causa nunc valde. Augue camur euismod gravis minim os.\n\nAbbas augue fere gravis huic jus nulla virtus vulpes. Cogo dolore rusticus. Consequat ideo lenis nutus patria vero ymo. Caecus letalis loquor pala paratus persto vereor.\n\nAbico ad elit haero pneum saluto sudo. Consectetuer eum gravis qui sudo utrum verto. Camur interdico torqueo. Abigo consectetuer dignissim nimis olim paratus typicus. Esca gemino similis vicis.\n\n",
+            "lang": "en"
+        }
+    ],
+    "comment_forum": [
+        {
+            "status": 1,
+            "cid": 0,
+            "last_comment_timestamp": 1513632171,
+            "last_comment_name": null,
+            "last_comment_uid": 11,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ],
+    "field_voting": [
+        {
+            "status": 0
+        }
+    ]
+}

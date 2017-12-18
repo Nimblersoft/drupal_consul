@@ -1,0 +1,263 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/proposals\/ibidem-laoreet-quadrum?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/proposal"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/33?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/uid": [
+            {
+                "href": "http:\/\/default\/user\/33?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/field_documentation": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2017-12\/wmjzwjgUpI.txt"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 310
+        }
+    ],
+    "uuid": [
+        {
+            "value": "387ed3ee-9b8e-462d-a108-703fecfa2bef"
+        }
+    ],
+    "vid": [
+        {
+            "value": 330
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "proposal"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-18T21:33:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/33?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0ce1de8a-f441-4b8b-9c71-ea533d1ad919"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/33?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0ce1de8a-f441-4b8b-9c71-ea533d1ad919"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/field_documentation": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2017-12\/wmjzwjgUpI.txt"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "010b7322-6a1d-48e5-91bc-e1b3e89892c5"
+                    }
+                ],
+                "uri": [
+                    {
+                        "value": "http:\/\/default\/sites\/default\/files\/2017-12\/wmjzwjgUpI.txt"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/proposal\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4681571d-2e96-46e5-be00-4664725063a6"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9e1b7b41-b7a0-488f-a67d-1c751e3c957c"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9e1b7b41-b7a0-488f-a67d-1c751e3c957c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Ibidem Laoreet Quadrum",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-14T05:33:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-18T21:33:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/proposals\/ibidem-laoreet-quadrum",
+            "pid": 114,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Abluo consectetuer elit et gemino gilvus importunus modo. Causa incassum luptatum singularis veniam verto. Aliquam aptent ea enim esse hendrerit luctus paulatim praemitto validus.\n\nAbico abluo decet euismod iustum lenis neo quis refero. Sudo turpis wisi. Capto genitus humo lenis nisl suscipit wisi. Ad aliquam autem ideo interdico sudo vindico. Abdo brevitas camur ille. Lenis magna suscipit velit vindico zelus. Abluo dolore exputo immitto nisl nobis olim sed vereor. Nimis typicus usitas velit zelus. Iriure laoreet venio.\n\nConventio diam distineo. Cui interdico molior torqueo. Abbas cogo enim importunus. Adipiscing ea ludus pneum. Aliquam enim melior meus nobis ulciscor uxor wisi. Camur macto meus praemitto venio. Melior neo utrum. Cui nimis patria refoveo sagaciter tego. Camur feugiat interdico jugis mos plaga ratis valetudo virtus. Aliquip enim gravis. Aliquip facilisis feugiat gilvus lenis luptatum. Appellatio euismod jumentum pneum tation tincidunt venio.\n\nCamur exerci pecus saepius secundum ymo. Esca meus pecus. Abluo exputo nulla quae quidne. At lobortis ludus saepius. Autem et jumentum meus ymo. Diam gilvus iaceo suscipit valetudo volutpat. Appellatio patria paulatim ratis roto. Causa commodo exputo paulatim refoveo secundum sed. Aliquip consectetuer facilisi hendrerit vero zelus. Antehabeo eligo esse ludus nobis secundum sed sit vel wisi. Pagus quae tincidunt ut.\n\nAmet loquor mauris nibh nulla olim saepius sino ut valetudo. Amet euismod fere immitto jus qui vindico. Acsi eligo exerci gilvus mauris oppeto qui sed. Appellatio aptent camur dignissim incassum interdico nobis pagus roto typicus.\n\nCausa esca jumentum pecus. Capto importunus letalis neque paratus praemitto quibus quidne torqueo velit. Adipiscing at vicis volutpat. Blandit nutus patria pertineo virtus. Ea huic neque te venio. Facilisi facilisis nisl obruo praemitto ratis usitas ut. Abigo commoveo diam duis quibus refoveo scisco vel zelus.\n\nAd enim eros esca humo inhibeo probo quae virtus. Distineo dolor mos. Eu modo paratus plaga vero. Abluo jus meus nostrud nulla os saepius scisco si vulputate. Distineo esca proprius tego.\n\nAccumsan conventio jugis magna mos nulla paratus paulatim praemitto utinam. Aptent jugis quadrum suscipere. Interdico molior pertineo si tation typicus verto wisi. Abbas abdo hendrerit imputo letalis luctus os pagus refero utrum. Ille nisl quidne venio vereor. Eligo enim eros quadrum sudo tum.\n\nElit eu iriure jus sed torqueo tum vicis voco. Abico et tincidunt tum. Genitus patria velit virtus. Plaga tego turpis vulpes. Erat gemino loquor paulatim pertineo quidne sed uxor vero.\n\nBene melior pagus plaga torqueo ullamcorper usitas. Abluo camur diam haero letalis os qui rusticus. Brevitas ille magna patria. Autem hendrerit ibidem tego tum typicus ut.\n\nIlle olim quis voco. Duis elit tamen. Patria premo quia quibus tincidunt. Exputo ille pneum rusticus typicus validus. Abigo eum meus neque nisl sed. Abbas abluo accumsan capto dignissim modo sagaciter suscipit ullamcorper virtus. Augue ideo immitto.\n\nAbdo aliquam augue enim oppeto patria praemitto. Dolor ex iaceo inhibeo jumentum singularis sino vel. Bene dolus fere immitto loquor persto singularis sit torqueo. Genitus ideo iusto odio. Distineo eu laoreet quia secundum. Ea eum valde. Illum jumentum modo patria paulatim quibus sed. Autem fere paulatim. Brevitas facilisi iaceo nibh nulla qui quis sino sit.\n\n",
+            "format": "plain_text",
+            "summary": "Abluo consectetuer elit et gemino gilvus importunus modo. Causa incassum luptatum singularis veniam verto. Aliquam aptent ea enim esse hendrerit luctus paulatim praemitto validus.\n\nAbico abluo decet euismod iustum lenis neo quis refero. Sudo turpis wisi. Capto genitus humo lenis nisl suscipit wisi. Ad aliquam autem ideo interdico sudo vindico. Abdo brevitas camur ille. Lenis magna suscipit velit vindico zelus. Abluo dolore exputo immitto nisl nobis olim sed vereor. Nimis typicus usitas velit zelus. Iriure laoreet venio.\n\nConventio diam distineo. Cui interdico molior torqueo. Abbas cogo enim importunus. Adipiscing ea ludus pneum. Aliquam enim melior meus nobis ulciscor uxor wisi. Camur macto meus praemitto venio. Melior neo utrum. Cui nimis patria refoveo sagaciter tego. Camur feugiat interdico jugis mos plaga ratis valetudo virtus. Aliquip enim gravis. Aliquip facilisis feugiat gilvus lenis luptatum. Appellatio euismod jumentum pneum tation tincidunt venio.\n\nCamur exerci pecus saepius secundum ymo. Esca meus pecus. Abluo exputo nulla quae quidne. At lobortis ludus saepius. Autem et jumentum meus ymo. Diam gilvus iaceo suscipit valetudo volutpat. Appellatio patria paulatim ratis roto. Causa commodo exputo paulatim refoveo secundum sed. Aliquip consectetuer facilisi hendrerit vero zelus. Antehabeo eligo esse ludus nobis secundum sed sit vel wisi. Pagus quae tincidunt ut.\n\nAmet loquor mauris nibh nulla olim saepius sino ut valetudo. Amet euismod fere immitto jus qui vindico. Acsi eligo exerci gilvus mauris oppeto qui sed. Appellatio aptent camur dignissim incassum interdico nobis pagus roto typicus.\n\nCausa esca jumentum pecus. Capto importunus letalis neque paratus praemitto quibus quidne torqueo velit. Adipiscing at vicis volutpat. Blandit nutus patria pertineo virtus. Ea huic neque te venio. Facilisi facilisis nisl obruo praemitto ratis usitas ut. Abigo commoveo diam duis quibus refoveo scisco vel zelus.\n\nAd enim eros esca humo inhibeo probo quae virtus. Distineo dolor mos. Eu modo paratus plaga vero. Abluo jus meus nostrud nulla os saepius scisco si vulputate. Distineo esca proprius tego.\n\nAccumsan conventio jugis magna mos nulla paratus paulatim praemitto utinam. Aptent jugis quadrum suscipere. Interdico molior pertineo si tation typicus verto wisi. Abbas abdo hendrerit imputo letalis luctus os pagus refero utrum. Ille nisl quidne venio vereor. Eligo enim eros quadrum sudo tum.\n\nElit eu iriure jus sed torqueo tum vicis voco. Abico et tincidunt tum. Genitus patria velit virtus. Plaga tego turpis vulpes. Erat gemino loquor paulatim pertineo quidne sed uxor vero.\n\nBene melior pagus plaga torqueo ullamcorper usitas. Abluo camur diam haero letalis os qui rusticus. Brevitas ille magna patria. Autem hendrerit ibidem tego tum typicus ut.\n\nIlle olim quis voco. Duis elit tamen. Patria premo quia quibus tincidunt. Exputo ille pneum rusticus typicus validus. Abigo eum meus neque nisl sed. Abbas abluo accumsan capto dignissim modo sagaciter suscipit ullamcorper virtus. Augue ideo immitto.\n\nAbdo aliquam augue enim oppeto patria praemitto. Dolor ex iaceo inhibeo jumentum singularis sino vel. Bene dolus fere immitto loquor persto singularis sit torqueo. Genitus ideo iusto odio. Distineo eu laoreet quia secundum. Ea eum valde. Illum jumentum modo patria paulatim quibus sed. Autem fere paulatim. Brevitas facilisi iaceo nibh nulla qui quis sino sit.\n\n",
+            "lang": "en"
+        }
+    ],
+    "comment": [
+        {
+            "status": 2,
+            "cid": 59,
+            "last_comment_timestamp": 1513632794,
+            "last_comment_name": "",
+            "last_comment_uid": 29,
+            "comment_count": 1,
+            "lang": "en"
+        }
+    ],
+    "field_required_voting": [
+        {
+            "value": 9
+        }
+    ]
+}

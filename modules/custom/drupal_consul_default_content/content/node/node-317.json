@@ -1,0 +1,182 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/317?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/legislative_process"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/legislative_process\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/45?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/legislative_process\/uid": [
+            {
+                "href": "http:\/\/default\/user\/45?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/legislative_process\/field_key_date": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 317
+        }
+    ],
+    "uuid": [
+        {
+            "value": "04f48fa3-8cf4-4894-a039-77f0a15e2f86"
+        }
+    ],
+    "vid": [
+        {
+            "value": 337
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "legislative_process"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-18T21:43:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/legislative_process\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/45?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f0d39ac9-e246-4547-a71c-0698d38aa468"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/legislative_process\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/45?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f0d39ac9-e246-4547-a71c-0698d38aa468"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/legislative_process\/field_key_date": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/process_key_date"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3b3cde76-7ab7-4b96-a644-3cb690331a57"
+                    }
+                ],
+                "target_revision_id": "31"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Utrum Velit",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-14T08:39:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-18T21:43:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Abdo conventio elit paulatim praesent similis. Commodo duis eu inhibeo ratis utrum volutpat ymo. Diam sino suscipit vulputate. Camur duis enim ibidem probo ratis turpis volutpat. Abigo aliquip ille praemitto quidem tation utinam valde vel. Abbas comis et patria vel. Appellatio commoveo ea esse ideo roto singularis.\n\nAutem enim ludus voco. Amet consectetuer distineo gemino huic laoreet lucidus qui validus. Eligo ille jumentum magna valetudo validus. Amet antehabeo causa humo nobis oppeto quadrum torqueo. Eum natu pertineo. At feugiat hendrerit humo iaceo ideo saepius suscipit ymo. Comis letalis paulatim suscipit. Abdo consequat pala vindico.\n\nAdipiscing capto causa meus occuro sed typicus ulciscor. Eros humo nutus pertineo tamen. Cogo elit esse ibidem iriure lucidus qui ratis verto. Aliquam caecus duis minim saluto vel. Aliquip patria similis vulputate. Abluo commodo dolus euismod iustum nibh patria.\n\nEligo inhibeo suscipere. Capto comis commoveo dignissim hos inhibeo metuo nobis singularis wisi. Aptent euismod humo luctus nimis qui tation typicus. Ea hendrerit incassum quidem sed utinam velit virtus. Abico bene distineo hendrerit hos metuo saepius singularis valde.\n\nDefui duis iustum pecus similis tamen. Commodo fere melior mos nimis olim probo quia. Eu nibh similis sino typicus veniam. Conventio dolor esse pneum.\n\nDuis euismod feugiat gravis ludus persto te. Cui enim venio. Appellatio et exputo haero hos modo sit tation vereor vulpes. Aliquam quidne saepius sino. Dolus erat minim torqueo veniam. Cui ea natu pneum velit.\n\nRefero saluto vel. Jumentum nulla plaga ulciscor. Abbas accumsan cui erat occuro quidne. Autem humo iaceo metuo nobis populus refoveo secundum vel. Abluo enim hos laoreet plaga. Acsi cogo jus nobis obruo paulatim saepius tego utinam ymo.\n\nGilvus hos ibidem melior quadrum quia rusticus usitas. Camur causa ex meus nisl. Ad adipiscing bene damnum dolore eu nimis ratis. Capto consectetuer dolor et incassum nobis quae quibus. Diam incassum jus lobortis nibh tamen tincidunt virtus. Eum feugiat haero ille magna metuo pertineo refero tation. Aptent distineo eu ille tego.\n\nCaecus iusto persto. Lucidus patria similis. Enim letalis secundum. Saepius sagaciter tincidunt. Bene pala pneum praesent vereor. Adipiscing cui iusto letalis luptatum ratis refero typicus. Capto illum validus. Antehabeo cui elit macto natu pagus proprius voco. Haero lucidus luctus patria plaga sino suscipere suscipit veniam wisi. Camur quis ymo. Ad cui immitto jus nimis pneum quadrum quia.\n\nAbdo ille odio vel. Diam molior qui. Distineo luptatum paratus. Antehabeo euismod facilisi letalis nimis nostrud sudo usitas uxor. Abico capto inhibeo neo nobis vel. Abdo abluo metuo nibh. Antehabeo hendrerit iusto iustum. Abico accumsan consequat ea lobortis refero vero. Erat os tego vel ymo. Abico at esca populus utrum. Caecus meus natu pertineo premo ullamcorper vel vulpes. Aptent consectetuer dolore gemino ille venio.\n\nAliquam caecus conventio feugiat mos nobis probo suscipit valde. Consequat ille imputo. Aliquip conventio ea exputo incassum. Caecus fere letalis turpis uxor vereor.\n\nAbigo eum neque suscipit. Capto causa ille iriure premo singularis torqueo vulputate. Esse hendrerit sino. Feugiat huic persto praesent secundum suscipere ulciscor vereor vulputate zelus. Abbas accumsan conventio exerci lobortis nobis populus. Letalis ludus nostrud quibus quidne. Acsi amet distineo euismod immitto interdico valetudo wisi.\n\n",
+            "format": "plain_text",
+            "summary": "Abdo conventio elit paulatim praesent similis. Commodo duis eu inhibeo ratis utrum volutpat ymo. Diam sino suscipit vulputate. Camur duis enim ibidem probo ratis turpis volutpat. Abigo aliquip ille praemitto quidem tation utinam valde vel. Abbas comis et patria vel. Appellatio commoveo ea esse ideo roto singularis.\n\nAutem enim ludus voco. Amet consectetuer distineo gemino huic laoreet lucidus qui validus. Eligo ille jumentum magna valetudo validus. Amet antehabeo causa humo nobis oppeto quadrum torqueo. Eum natu pertineo. At feugiat hendrerit humo iaceo ideo saepius suscipit ymo. Comis letalis paulatim suscipit. Abdo consequat pala vindico.\n\nAdipiscing capto causa meus occuro sed typicus ulciscor. Eros humo nutus pertineo tamen. Cogo elit esse ibidem iriure lucidus qui ratis verto. Aliquam caecus duis minim saluto vel. Aliquip patria similis vulputate. Abluo commodo dolus euismod iustum nibh patria.\n\nEligo inhibeo suscipere. Capto comis commoveo dignissim hos inhibeo metuo nobis singularis wisi. Aptent euismod humo luctus nimis qui tation typicus. Ea hendrerit incassum quidem sed utinam velit virtus. Abico bene distineo hendrerit hos metuo saepius singularis valde.\n\nDefui duis iustum pecus similis tamen. Commodo fere melior mos nimis olim probo quia. Eu nibh similis sino typicus veniam. Conventio dolor esse pneum.\n\nDuis euismod feugiat gravis ludus persto te. Cui enim venio. Appellatio et exputo haero hos modo sit tation vereor vulpes. Aliquam quidne saepius sino. Dolus erat minim torqueo veniam. Cui ea natu pneum velit.\n\nRefero saluto vel. Jumentum nulla plaga ulciscor. Abbas accumsan cui erat occuro quidne. Autem humo iaceo metuo nobis populus refoveo secundum vel. Abluo enim hos laoreet plaga. Acsi cogo jus nobis obruo paulatim saepius tego utinam ymo.\n\nGilvus hos ibidem melior quadrum quia rusticus usitas. Camur causa ex meus nisl. Ad adipiscing bene damnum dolore eu nimis ratis. Capto consectetuer dolor et incassum nobis quae quibus. Diam incassum jus lobortis nibh tamen tincidunt virtus. Eum feugiat haero ille magna metuo pertineo refero tation. Aptent distineo eu ille tego.\n\nCaecus iusto persto. Lucidus patria similis. Enim letalis secundum. Saepius sagaciter tincidunt. Bene pala pneum praesent vereor. Adipiscing cui iusto letalis luptatum ratis refero typicus. Capto illum validus. Antehabeo cui elit macto natu pagus proprius voco. Haero lucidus luctus patria plaga sino suscipere suscipit veniam wisi. Camur quis ymo. Ad cui immitto jus nimis pneum quadrum quia.\n\nAbdo ille odio vel. Diam molior qui. Distineo luptatum paratus. Antehabeo euismod facilisi letalis nimis nostrud sudo usitas uxor. Abico capto inhibeo neo nobis vel. Abdo abluo metuo nibh. Antehabeo hendrerit iusto iustum. Abico accumsan consequat ea lobortis refero vero. Erat os tego vel ymo. Abico at esca populus utrum. Caecus meus natu pertineo premo ullamcorper vel vulpes. Aptent consectetuer dolore gemino ille venio.\n\nAliquam caecus conventio feugiat mos nobis probo suscipit valde. Consequat ille imputo. Aliquip conventio ea exputo incassum. Caecus fere letalis turpis uxor vereor.\n\nAbigo eum neque suscipit. Capto causa ille iriure premo singularis torqueo vulputate. Esse hendrerit sino. Feugiat huic persto praesent secundum suscipere ulciscor vereor vulputate zelus. Abbas accumsan conventio exerci lobortis nobis populus. Letalis ludus nostrud quibus quidne. Acsi amet distineo euismod immitto interdico valetudo wisi.\n\n",
+            "lang": "en"
+        }
+    ],
+    "comment": [
+        {
+            "status": 0,
+            "cid": 0,
+            "last_comment_timestamp": 1513633434,
+            "last_comment_name": null,
+            "last_comment_uid": 45,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ]
+}

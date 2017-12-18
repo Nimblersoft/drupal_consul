@@ -1,0 +1,229 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/budgets\/caecus-diam-probo-saepius?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/budget"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/36?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/uid": [
+            {
+                "href": "http:\/\/default\/user\/36?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_district": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/26?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_status": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/33?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 321
+        }
+    ],
+    "uuid": [
+        {
+            "value": "df4ad117-42c6-4ff7-adc4-6417ec2ee1d6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 341
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "budget"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-18T21:48:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/36?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "60ffe94c-5048-4c7a-8b17-999c33433270"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/36?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "60ffe94c-5048-4c7a-8b17-999c33433270"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_district": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/26?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/district"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "101e6ecb-561a-4ca8-87c2-f3d9d05aec9d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_status": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/33?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/project_status"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1dec9b82-c89a-4566-bfd3-b302ff963c7a"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4681571d-2e96-46e5-be00-4664725063a6"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Caecus Diam Probo Saepius",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-13T05:13:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-18T21:48:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/budgets\/caecus-diam-probo-saepius",
+            "pid": 120,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Dolore et quidem ratis rusticus. Esca facilisi gilvus luptatum mos oppeto paratus suscipere tincidunt. Gilvus ideo occuro ratis sudo. Ille jugis paratus quibus quidne. Abdo ex jumentum nisl pneum voco. Facilisi luctus sino tation volutpat. At decet facilisi haero paulatim.\n\nImmitto lobortis luctus neo quibus. Adipiscing antehabeo bene praemitto roto tation. Metuo praemitto turpis. Amet tamen tation vel vulpes. Commoveo euismod quae quis singularis ulciscor. Abigo acsi enim letalis melior refoveo. Cogo eum laoreet praesent usitas. Comis eum natu nobis quis ymo. Hos iaceo ille immitto inhibeo nutus scisco tamen ulciscor.\n\nImputo quidem tego. Aliquip autem dignissim lenis persto typicus. Dolor gilvus metuo premo si similis suscipere. Abbas amet et facilisi lucidus suscipere venio verto. Antehabeo fere gemino iustum neque quibus utrum veniam. Adipiscing antehabeo distineo importunus mauris meus oppeto quidem suscipere vero.\n\nCapto conventio lucidus mauris. Dolore fere nobis oppeto velit. Ea genitus huic mauris modo neque pala vulpes vulputate. Autem comis ille interdico lenis nisl quia torqueo ymo. Augue damnum distineo. Consequat huic patria pecus pneum. Aliquip autem esse gemino immitto imputo patria sudo. Capto euismod fere gemino meus saluto veniam.\n\nCui euismod metuo pala quis. Abico ad antehabeo enim jugis mos secundum uxor. Decet enim hos in refero roto ulciscor utinam. Gemino hos lenis molior pala ratis valetudo.\n\nIbidem obruo pneum. Causa consectetuer roto. Camur consequat dignissim luctus magna nisl os quis usitas velit. Aliquip amet causa in persto pertineo refero refoveo si voco. Aliquam modo mos velit. Adipiscing camur euismod hos jugis mos nostrud proprius quibus sagaciter.\n\nAbigo comis jumentum letalis neo refoveo tation. Appellatio ideo persto. Antehabeo importunus modo os roto. Importunus similis utinam vicis. Accumsan haero ille melior nutus occuro vel volutpat.\n\nAt damnum feugiat humo odio quidne ulciscor. Augue iriure luptatum praesent venio voco. Abbas aliquip brevitas commodo facilisis loquor paulatim refoveo suscipere torqueo. Aliquam elit lenis obruo quia ratis vindico volutpat. Acsi augue luptatum oppeto premo te valde. Amet erat ille interdico pertineo quia quis suscipere validus.\n\nAbico esca facilisis gemino huic inhibeo interdico loquor ratis valde. Amet eu ex incassum natu os pneum sagaciter venio. Gilvus sino tamen volutpat. Accumsan amet ideo loquor pagus quadrum rusticus. Eum ex molior te. Antehabeo consectetuer gemino gravis nibh volutpat. Comis diam facilisis iustum pecus quidne. Bene gemino immitto neo pagus te.\n\nBrevitas commodo eu humo imputo loquor neque quae sit. Eu probo vulputate. Brevitas caecus metuo nostrud occuro veniam. Nimis quibus zelus. Et modo ratis. Commodo diam melior minim modo mos nunc populus quadrum refero.\n\nEnim molior neo pneum rusticus tego. Luctus singularis sit ulciscor veniam. Capto exputo gilvus huic letalis molior mos sit turpis vulpes. Acsi appellatio caecus elit exputo occuro praemitto suscipere suscipit ulciscor. Brevitas eros fere feugiat neque nisl saepius singularis tego vindico. Duis et iaceo in pneum praemitto rusticus ymo. Consectetuer pecus tum valetudo vereor virtus.\n\nAmet appellatio at hos incassum jus patria pecus plaga. Immitto persto vulpes. Abbas dignissim esca euismod fere imputo minim nostrud pagus ut. Dolus erat iriure luctus modo nostrud olim typicus ulciscor ymo.\n\n",
+            "format": "plain_text",
+            "summary": "Dolore et quidem ratis rusticus. Esca facilisi gilvus luptatum mos oppeto paratus suscipere tincidunt. Gilvus ideo occuro ratis sudo. Ille jugis paratus quibus quidne. Abdo ex jumentum nisl pneum voco. Facilisi luctus sino tation volutpat. At decet facilisi haero paulatim.\n\nImmitto lobortis luctus neo quibus. Adipiscing antehabeo bene praemitto roto tation. Metuo praemitto turpis. Amet tamen tation vel vulpes. Commoveo euismod quae quis singularis ulciscor. Abigo acsi enim letalis melior refoveo. Cogo eum laoreet praesent usitas. Comis eum natu nobis quis ymo. Hos iaceo ille immitto inhibeo nutus scisco tamen ulciscor.\n\nImputo quidem tego. Aliquip autem dignissim lenis persto typicus. Dolor gilvus metuo premo si similis suscipere. Abbas amet et facilisi lucidus suscipere venio verto. Antehabeo fere gemino iustum neque quibus utrum veniam. Adipiscing antehabeo distineo importunus mauris meus oppeto quidem suscipere vero.\n\nCapto conventio lucidus mauris. Dolore fere nobis oppeto velit. Ea genitus huic mauris modo neque pala vulpes vulputate. Autem comis ille interdico lenis nisl quia torqueo ymo. Augue damnum distineo. Consequat huic patria pecus pneum. Aliquip autem esse gemino immitto imputo patria sudo. Capto euismod fere gemino meus saluto veniam.\n\nCui euismod metuo pala quis. Abico ad antehabeo enim jugis mos secundum uxor. Decet enim hos in refero roto ulciscor utinam. Gemino hos lenis molior pala ratis valetudo.\n\nIbidem obruo pneum. Causa consectetuer roto. Camur consequat dignissim luctus magna nisl os quis usitas velit. Aliquip amet causa in persto pertineo refero refoveo si voco. Aliquam modo mos velit. Adipiscing camur euismod hos jugis mos nostrud proprius quibus sagaciter.\n\nAbigo comis jumentum letalis neo refoveo tation. Appellatio ideo persto. Antehabeo importunus modo os roto. Importunus similis utinam vicis. Accumsan haero ille melior nutus occuro vel volutpat.\n\nAt damnum feugiat humo odio quidne ulciscor. Augue iriure luptatum praesent venio voco. Abbas aliquip brevitas commodo facilisis loquor paulatim refoveo suscipere torqueo. Aliquam elit lenis obruo quia ratis vindico volutpat. Acsi augue luptatum oppeto premo te valde. Amet erat ille interdico pertineo quia quis suscipere validus.\n\nAbico esca facilisis gemino huic inhibeo interdico loquor ratis valde. Amet eu ex incassum natu os pneum sagaciter venio. Gilvus sino tamen volutpat. Accumsan amet ideo loquor pagus quadrum rusticus. Eum ex molior te. Antehabeo consectetuer gemino gravis nibh volutpat. Comis diam facilisis iustum pecus quidne. Bene gemino immitto neo pagus te.\n\nBrevitas commodo eu humo imputo loquor neque quae sit. Eu probo vulputate. Brevitas caecus metuo nostrud occuro veniam. Nimis quibus zelus. Et modo ratis. Commodo diam melior minim modo mos nunc populus quadrum refero.\n\nEnim molior neo pneum rusticus tego. Luctus singularis sit ulciscor veniam. Capto exputo gilvus huic letalis molior mos sit turpis vulpes. Acsi appellatio caecus elit exputo occuro praemitto suscipere suscipit ulciscor. Brevitas eros fere feugiat neque nisl saepius singularis tego vindico. Duis et iaceo in pneum praemitto rusticus ymo. Consectetuer pecus tum valetudo vereor virtus.\n\nAmet appellatio at hos incassum jus patria pecus plaga. Immitto persto vulpes. Abbas dignissim esca euismod fere imputo minim nostrud pagus ut. Dolus erat iriure luctus modo nostrud olim typicus ulciscor ymo.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_cost": [
+        {
+            "value": -7.122e+30
+        }
+    ]
+}

@@ -1,0 +1,269 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/budgets\/eu-facilisi-vindico?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/budget"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/46?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/uid": [
+            {
+                "href": "http:\/\/default\/user\/46?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_district": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/23?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_status": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/32?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 320
+        }
+    ],
+    "uuid": [
+        {
+            "value": "91a2c517-b96b-4dbd-9845-319b20f03e79"
+        }
+    ],
+    "vid": [
+        {
+            "value": 340
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "budget"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-18T21:48:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/46?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8118b824-26e8-4e16-85ef-6d98cb478049"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/46?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8118b824-26e8-4e16-85ef-6d98cb478049"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_district": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/23?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/district"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "afca5396-aaa9-43a9-bc35-89e0b5a7f92f"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_status": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/32?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/project_status"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e6880663-f17a-4f32-b707-768c42af7de2"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/budget\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/17?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9e1b7b41-b7a0-488f-a67d-1c751e3c957c"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4681571d-2e96-46e5-be00-4664725063a6"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4681571d-2e96-46e5-be00-4664725063a6"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Eu Facilisi Vindico",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-12T14:28:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-18T21:48:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/budgets\/eu-facilisi-vindico",
+            "pid": 119,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Facilisis laoreet lucidus nimis nulla. Blandit diam gemino nimis oppeto praemitto tego turpis. Eum nimis ut. Abluo dolor humo ibidem macto magna quidem utrum venio. Capto iusto roto.\n\nAmet dolore enim in modo obruo os paratus. Ea et inhibeo magna volutpat. Dignissim fere imputo quibus tincidunt valetudo. Augue blandit commoveo dolore ille nibh ratis sino. Commodo obruo occuro si vicis.\n\nAliquip erat genitus loquor utrum veniam. Amet ideo nobis quis validus. Causa feugiat ibidem jugis os ymo. Euismod sudo vero. Enim exputo iusto rusticus. Accumsan duis facilisi pertineo quibus ut valetudo. Cui diam dolore feugiat nunc quis secundum suscipere. Causa cui esse interdico turpis. Gravis luptatum metuo pecus tego. Accumsan ea fere hendrerit jus.\n\nAbdo appellatio dolus eu iriure tego vicis. Cui duis genitus neo neque patria torqueo veniam. Ea haero metuo ullamcorper utinam. Exputo humo loquor paratus probo typicus wisi. Ad autem cogo dolor euismod hos modo suscipit. Commodo hos jumentum occuro paratus paulatim plaga sudo tego.\n\nCapto comis ille incassum metuo nimis praesent similis. Abbas antehabeo eligo hos molior neo nunc ulciscor vulputate. Augue nobis praesent vulputate ymo. Antehabeo defui persto pertineo quia sino ut. Abdo accumsan exputo ideo nimis quibus. Exerci gilvus meus nobis quis saepius vindico. Amet camur exputo nostrud odio uxor validus.\n\nCommodo decet elit eum exerci luptatum. Autem eligo feugiat huic lenis pertineo vel. Dolor immitto pecus. Abdo ad eligo jus quae. Ludus refero utrum. Exputo gilvus illum similis tation turpis voco. Eu iriure iustum mauris natu pecus sit veniam ymo. Aliquam consectetuer enim exputo incassum jus obruo populus utrum vulputate. Dolore enim immitto torqueo velit voco.\n\nEa mos nisl qui quia sagaciter. Brevitas enim eros paulatim. Neque nobis quidem. Ad dolor facilisi ibidem letalis nulla plaga. Iustum persto refoveo saepius sit voco. Eligo ibidem meus nostrud pala pertineo rusticus valde voco. Abluo appellatio at iusto letalis lucidus luctus melior quia ullamcorper. Causa eum neo nobis scisco uxor. Abdo iriure lobortis modo pagus probo turpis ulciscor vicis vulputate.\n\nDolor facilisi ille molior nimis roto. Duis exputo illum minim neque paratus valetudo vicis. Abluo aliquam cogo ea exputo iriure macto. Autem consequat euismod pecus quidem utinam vicis. Duis esca importunus proprius saluto ullamcorper. Abdo distineo dolore imputo iustum sagaciter singularis tincidunt. Illum immitto iusto iustum metuo modo nutus quibus.\n\nCommodo damnum exputo interdico metuo secundum sed sudo venio vulpes. Hos proprius zelus. Elit ex quia. Comis consequat jugis jus luptatum tation volutpat. Gilvus humo magna metuo olim quadrum sudo suscipere vero. Modo pagus quibus refoveo secundum velit venio.\n\nDecet erat eu loquor odio paratus. Aliquip cui gilvus huic modo os persto saluto sudo virtus. Euismod praemitto usitas. Abluo aliquam letalis pagus suscipere. Dolore dolus duis modo mos sudo. Ille in nostrud probo. Distineo dolore ludus nimis quidne. Amet causa erat eu ideo interdico proprius suscipit velit.\n\nAdipiscing huic ille iusto nibh os populus sudo vulpes. Imputo jumentum ludus persto roto. Defui humo immitto quibus vulpes. Consequat jumentum patria vindico. Ea nisl quia ymo. Cui dolus enim nunc paratus paulatim praesent sed volutpat. Distineo et ille importunus venio. Enim iusto nulla quidne sit.\n\nIdeo imputo vereor. Causa distineo dolor ex gemino iriure meus olim. Acsi augue gilvus importunus tego verto vicis. Hos ille scisco. Ea gilvus haero modo oppeto patria venio. Brevitas commoveo dolus esca immitto iriure luptatum pagus premo ut.\n\n",
+            "format": "plain_text",
+            "summary": "Facilisis laoreet lucidus nimis nulla. Blandit diam gemino nimis oppeto praemitto tego turpis. Eum nimis ut. Abluo dolor humo ibidem macto magna quidem utrum venio. Capto iusto roto.\n\nAmet dolore enim in modo obruo os paratus. Ea et inhibeo magna volutpat. Dignissim fere imputo quibus tincidunt valetudo. Augue blandit commoveo dolore ille nibh ratis sino. Commodo obruo occuro si vicis.\n\nAliquip erat genitus loquor utrum veniam. Amet ideo nobis quis validus. Causa feugiat ibidem jugis os ymo. Euismod sudo vero. Enim exputo iusto rusticus. Accumsan duis facilisi pertineo quibus ut valetudo. Cui diam dolore feugiat nunc quis secundum suscipere. Causa cui esse interdico turpis. Gravis luptatum metuo pecus tego. Accumsan ea fere hendrerit jus.\n\nAbdo appellatio dolus eu iriure tego vicis. Cui duis genitus neo neque patria torqueo veniam. Ea haero metuo ullamcorper utinam. Exputo humo loquor paratus probo typicus wisi. Ad autem cogo dolor euismod hos modo suscipit. Commodo hos jumentum occuro paratus paulatim plaga sudo tego.\n\nCapto comis ille incassum metuo nimis praesent similis. Abbas antehabeo eligo hos molior neo nunc ulciscor vulputate. Augue nobis praesent vulputate ymo. Antehabeo defui persto pertineo quia sino ut. Abdo accumsan exputo ideo nimis quibus. Exerci gilvus meus nobis quis saepius vindico. Amet camur exputo nostrud odio uxor validus.\n\nCommodo decet elit eum exerci luptatum. Autem eligo feugiat huic lenis pertineo vel. Dolor immitto pecus. Abdo ad eligo jus quae. Ludus refero utrum. Exputo gilvus illum similis tation turpis voco. Eu iriure iustum mauris natu pecus sit veniam ymo. Aliquam consectetuer enim exputo incassum jus obruo populus utrum vulputate. Dolore enim immitto torqueo velit voco.\n\nEa mos nisl qui quia sagaciter. Brevitas enim eros paulatim. Neque nobis quidem. Ad dolor facilisi ibidem letalis nulla plaga. Iustum persto refoveo saepius sit voco. Eligo ibidem meus nostrud pala pertineo rusticus valde voco. Abluo appellatio at iusto letalis lucidus luctus melior quia ullamcorper. Causa eum neo nobis scisco uxor. Abdo iriure lobortis modo pagus probo turpis ulciscor vicis vulputate.\n\nDolor facilisi ille molior nimis roto. Duis exputo illum minim neque paratus valetudo vicis. Abluo aliquam cogo ea exputo iriure macto. Autem consequat euismod pecus quidem utinam vicis. Duis esca importunus proprius saluto ullamcorper. Abdo distineo dolore imputo iustum sagaciter singularis tincidunt. Illum immitto iusto iustum metuo modo nutus quibus.\n\nCommodo damnum exputo interdico metuo secundum sed sudo venio vulpes. Hos proprius zelus. Elit ex quia. Comis consequat jugis jus luptatum tation volutpat. Gilvus humo magna metuo olim quadrum sudo suscipere vero. Modo pagus quibus refoveo secundum velit venio.\n\nDecet erat eu loquor odio paratus. Aliquip cui gilvus huic modo os persto saluto sudo virtus. Euismod praemitto usitas. Abluo aliquam letalis pagus suscipere. Dolore dolus duis modo mos sudo. Ille in nostrud probo. Distineo dolore ludus nimis quidne. Amet causa erat eu ideo interdico proprius suscipit velit.\n\nAdipiscing huic ille iusto nibh os populus sudo vulpes. Imputo jumentum ludus persto roto. Defui humo immitto quibus vulpes. Consequat jumentum patria vindico. Ea nisl quia ymo. Cui dolus enim nunc paratus paulatim praesent sed volutpat. Distineo et ille importunus venio. Enim iusto nulla quidne sit.\n\nIdeo imputo vereor. Causa distineo dolor ex gemino iriure meus olim. Acsi augue gilvus importunus tego verto vicis. Hos ille scisco. Ea gilvus haero modo oppeto patria venio. Brevitas commoveo dolus esca immitto iriure luptatum pagus premo ut.\n\n",
+            "lang": "en"
+        }
+    ],
+    "field_cost": [
+        {
+            "value": 12300600000000000
+        }
+    ]
+}

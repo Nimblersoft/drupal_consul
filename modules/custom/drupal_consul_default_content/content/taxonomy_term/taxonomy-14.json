@@ -1,0 +1,63 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/debates?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/forums"
+        }
+    },
+    "tid": [
+        {
+            "value": 14
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a9cd7e3d-90b9-421a-befa-eceb89328962"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "forums"
+        }
+    ],
+    "name": [
+        {
+            "value": "Debates",
+            "lang": "es"
+        }
+    ],
+    "weight": [
+        {
+            "value": 1
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-11-10T16:24:10+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/debates",
+            "pid": 1,
+            "langcode": "es",
+            "lang": "es"
+        }
+    ]
+}
