@@ -8,11 +8,7 @@ dependencies:
   - default_content
   - layout_discovery
   - ctools
-  - page_manager
   - block_content
-  - agov_article
-  - agov_media
-  - panels
   - views
 
 default_content:
