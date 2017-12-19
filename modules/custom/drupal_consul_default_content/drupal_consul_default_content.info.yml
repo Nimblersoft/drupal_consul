@@ -43,11 +43,9 @@ default_content:
     - node-320
     - node-321
     - node-322
-   
-   block_content:
+  block_content:
     - block-1
- 
-   taxonomy_term:
+  taxonomy_term:
     - taxonomy-14
     - taxonomy-16
     - taxonomy-17
@@ -74,7 +72,6 @@ default_content:
     - taxonomy-41
     - taxonomy-42
     - taxonomy-43
-
   menu_link_content:
     - menu-1
     - menu-2
