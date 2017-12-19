@@ -15,7 +15,6 @@ dependencies:
   - config
   - contextual
   - comment
-  - drupal_consul_default_content
   - datetime
   - datetime_range
   - default_content
