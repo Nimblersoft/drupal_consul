@@ -22,6 +22,7 @@ config_devel:
   - core.entity_view_display.node.poll.teaser
   - core.entity_view_display.poll.poll.default
   - core.entity_view_display.poll.poll.teaser
+  - core.entity_view_mode.node.teaser
   - core.entity_view_mode.poll.teaser
   - core.entity_view_mode.poll.token
   - core.entity_view_mode.poll_choice.token
@@ -32,11 +33,14 @@ config_devel:
   - field.field.node.poll.body
   - field.field.poll.poll.field_body
   - field.field.poll.poll.field_poll_comments
+  - field.storage.comment.comment_body
+  - field.storage.node.body
   - field.storage.poll.field_body
   - field.storage.poll.field_poll_comments
   - language.content_settings.comment.polls_comment
   - language.content_settings.comment.polls_comments
   - language.content_settings.node.poll
+  - system.menu.tools
   - views.view.poll_admin
   - views.view.poll_list
   - views.view.polls
