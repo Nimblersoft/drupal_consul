@@ -20,5 +20,13 @@ config_devel:
   - field.field.node.budget.field_documentation
   - field.field.node.budget.field_status
   - field.field.node.budget.field_tags
+  - field.storage.node.field_cost
+  - field.storage.node.field_district
+  - field.storage.node.field_documentation
+  - field.storage.node.field_status
+  - field.storage.node.field_tags
   - language.content_settings.node.budget
+  - taxonomy.vocabulary.district
+  - taxonomy.vocabulary.tags
+  - taxonomy.vocabulary.project_status
   - views.view.budgets
