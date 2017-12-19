@@ -63,6 +63,11 @@ dependencies:
   - tour
   - votingapi
   - votingapi_widgets
+  - drupal_consul_budget
+  - drupal_consul_legislative_process
+  - drupal_consul_poll
+  - drupal_consul_proposal
+
 
 configurable_dependencies:
   drupal_consul_default_content:

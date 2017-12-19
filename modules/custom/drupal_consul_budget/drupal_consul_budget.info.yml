@@ -1,0 +1,24 @@
+name: Drupal Consul Budget Content
+type: module
+description: 'Provides the budget content type.'
+package: Drupal Consul
+core: '8.x'
+
+dependencies:
+  - views
+  - block
+  - ds
+
+config_devel:
+  - node.type.budget
+  - core.entity_form_display.node.budget.default
+  - core.entity_view_display.node.budget.default
+  - core.entity_view_display.node.budget.teaser
+  - field.field.node.budget.body
+  - field.field.node.budget.field_cost
+  - field.field.node.budget.field_district
+  - field.field.node.budget.field_documentation
+  - field.field.node.budget.field_status
+  - field.field.node.budget.field_tags
+  - language.content_settings.node.budget
+  - views.view.budgets

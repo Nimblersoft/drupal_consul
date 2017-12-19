@@ -1,0 +1,42 @@
+name: Drupal Consul Poll Content
+type: module
+description: 'Provides the poll content type.'
+package: Drupal Consul
+core: '8.x'
+
+dependencies:
+  - views
+  - block
+  - ds
+
+config_devel:
+  - node.type.poll
+  - core.base_field_override.node.poll.title
+  - core.entity_form_display.comment.polls_comment.default
+  - core.entity_form_display.comment.polls_comments.default
+  - core.entity_form_display.node.poll.default
+  - core.entity_form_display.poll.poll.default
+  - core.entity_view_display.comment.polls_comment.default
+  - core.entity_view_display.comment.polls_comments.default
+  - core.entity_view_display.node.poll.default
+  - core.entity_view_display.node.poll.teaser
+  - core.entity_view_display.poll.poll.default
+  - core.entity_view_display.poll.poll.teaser
+  - core.entity_view_mode.poll.teaser
+  - core.entity_view_mode.poll.token
+  - core.entity_view_mode.poll_choice.token
+  - comment.type.polls_comment
+  - comment.type.polls_comments
+  - field.field.comment.polls_comment.comment_body
+  - field.field.comment.polls_comments.comment_body
+  - field.field.node.poll.body
+  - field.field.poll.poll.field_body
+  - field.field.poll.poll.field_poll_comments
+  - field.storage.poll.field_body
+  - field.storage.poll.field_poll_comments
+  - language.content_settings.comment.polls_comment
+  - language.content_settings.comment.polls_comments
+  - language.content_settings.node.poll
+  - views.view.poll_admin
+  - views.view.poll_list
+  - views.view.polls
