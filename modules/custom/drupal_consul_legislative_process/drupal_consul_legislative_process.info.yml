@@ -21,16 +21,16 @@ config_devel:
   - field.field.node.legislative_process.body
   - field.field.node.legislative_process.comment
   - field.field.node.legislative_process.field_key_date
-  - field.storage.paragraph.field_body
-  - field.storage.paragraph.field_date
-  - field.storage.paragraph.field_daterange
-  - field.storage.paragraph.field_title
   - field.field.paragraph.process_key_date.field_body
   - field.field.paragraph.process_key_date.field_date
   - field.field.paragraph.process_key_date.field_daterange
   - field.field.paragraph.process_key_date.field_title
   - field.storage.node.comment
   - field.storage.node.field_key_date
+  - field.storage.paragraph.field_body
+  - field.storage.paragraph.field_date
+  - field.storage.paragraph.field_daterange
+  - field.storage.paragraph.field_title
   - language.content_settings.node.legislative_process
   - paragraphs.paragraphs_type.process_key_date
   - views.view.processes
