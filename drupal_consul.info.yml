@@ -64,7 +64,7 @@ dependencies:
   - votingapi_widgets
   - drupal_consul_budget
   - drupal_consul_legislative_process
-  - drupal_consul_poll
+ # - drupal_consul_poll
   - drupal_consul_proposal
 
 
