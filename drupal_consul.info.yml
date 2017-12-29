@@ -24,6 +24,7 @@ dependencies:
   - menu_link_content
   - editor
   - entity_reference
+  - filter
   - forum
   - help
   - history
@@ -62,17 +63,13 @@ dependencies:
   - tour
   - votingapi
   - votingapi_widgets
-  - drupal_consul_budget
-  - drupal_consul_legislative_process
- # - drupal_consul_poll
-  - drupal_consul_proposal
 
 
 configurable_dependencies:
   drupal_consul_default_content:
     label: Drupal Consul Default Content
     description: Provides default content so you can see the Drupal Consul features in action.
-    enabled: true
+    enabled: false
 
 themes:
   - bartik
