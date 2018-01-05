@@ -4,7 +4,10 @@ description: 'An open citizenship participation platform built as a Drupal distr
 core: 8.x
 distribution:
   name: Drupal Consul
-
+  
+base profile:
+  name: standard
+  
 dependencies:
   - admin_toolbar
   - better_exposed_filters
