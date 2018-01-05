@@ -4,6 +4,10 @@
  * Install, update and uninstall functions for the profilename install profile.
  */
 
+use Drupal\user\Entity\User;
+use Drupal\user\RoleInterface;
+use Drupal\shortcut\Entity\Shortcut;
+ 
 /**
  * Implements hook_install().
  *
@@ -12,9 +16,29 @@
  * @see system_install()
  */
 function drupal_consul_install() {
-  // First, do everything in standard profile.
-  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
-  standard_install();
-  
+  // Set front page to "node".
+ \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/node')->save(TRUE);
+
+ // Allow visitor account creation with administrative approval.
+ $user_settings = \Drupal::configFactory()->getEditable('user.settings');
+ $user_settings->set('register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL)->save(TRUE);
+
+ // Enable default permissions for system roles.
+ user_role_grant_permissions(RoleInterface::ANONYMOUS_ID, ['access comments']);
+ user_role_grant_permissions(RoleInterface::AUTHENTICATED_ID, ['access comments', 'post comments', 'skip comment approval']);
+
+ // Assign user 1 the "administrator" role.
+ $user = User::load(1);
+ $user->roles[] = 'administrator';
+ $user->save();
+
+ // Allow all users to use search.
+ user_role_grant_permissions(RoleInterface::ANONYMOUS_ID, ['search content']);
+ user_role_grant_permissions(RoleInterface::AUTHENTICATED_ID, ['search content']);
+
+ // Enable the admin theme.
+ \Drupal::configFactory()->getEditable('node.settings')->set('use_admin_theme', TRUE)->save(TRUE);
+
+
   // Can add code in here to make nodes, terms, etc.
 }
