@@ -3,12 +3,16 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.proposal
+    - node.type.forum
+    - taxonomy.vocabulary.forums
+  content:
+    - 'taxonomy_term:forums:a9cd7e3d-90b9-421a-befa-eceb89328962'
   module:
     - node
+    - taxonomy
     - user
-id: proposals
-label: 'Proposals'
+id: debates
+label: Debates
 module: views
 description: ''
 tag: ''
@@ -48,12 +52,17 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: mini
+        type: full
         options:
-          items_per_page: 10
+          items_per_page: 20
           offset: 0
           id: 0
           total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« Primero'
+            last: 'Último »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -62,9 +71,7 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: ‹‹
-            next: ››
+          quantity: 20
       style:
         type: default
       row:
@@ -136,10 +143,54 @@ display:
           table: node_field_data
           field: type
           value:
-            proposal: proposal
+            forum: forum
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        taxonomy_forums_target_id:
+          id: taxonomy_forums_target_id
+          table: node__taxonomy_forums
+          field: taxonomy_forums_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value:
+            - 14
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: textfield
+          limit: true
+          vid: forums
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
       sorts:
         created:
           id: created
@@ -156,9 +207,35 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Proposals
-      header: {  }
-      footer: {  }
+      title: Debates
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: 'Start a debate discussion to share points of view with other people about the issues that concern you.'
+            format: basic_html
+          plugin_id: text
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: "<h2>Help about debates</h2>\n\nThe space for citizen debates is aimed at allowing any person to expose issues that concern them and about which they want to share points of view with other people.<br>\n\nTo open a debate, it is necessary to register. Registered users can also comment on open debates and rate them with the \"I agree\" or \"I do not agree\" buttons found in each of them.<br>\n\nKeep in mind that a debate does not activate any specific action mechanism. If you want to make a proposal for the city or propose a project of participatory budgets when the call is opened, go to the corresponding section.."
+            format: full_html
+          plugin_id: text
       empty: {  }
       relationships: {  }
       arguments: {  }
@@ -169,6 +246,7 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
@@ -179,13 +257,14 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: proposals
+      path: debates
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }

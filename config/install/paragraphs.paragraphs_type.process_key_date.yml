@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: process_key_date
+label: 'Key Date'
+icon_uuid: null
+description: 'Paragraph for key dates in Legislative Processes'
+behavior_plugins: {  }

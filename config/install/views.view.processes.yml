@@ -3,12 +3,12 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.proposal
+    - node.type.legislative_process
   module:
     - node
     - user
-id: proposals
-label: 'Proposals'
+id: processes
+label: 'Legislative Processes'
 module: views
 description: ''
 tag: ''
@@ -136,7 +136,7 @@ display:
           table: node_field_data
           field: type
           value:
-            proposal: proposal
+            legislative_process: legislative_process
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -156,7 +156,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Proposals
+      title: 'Legislative Processes'
       header: {  }
       footer: {  }
       empty: {  }
@@ -179,7 +179,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: proposals
+      path: processes
     cache_metadata:
       max-age: -1
       contexts:
