@@ -1,4 +1,4 @@
-langcode: es
+langcode: en
 status: true
 dependencies:
   module:
@@ -6,6 +6,8 @@ dependencies:
 name: 'Basic HTML'
 format: basic_html
 weight: 0
+roles:
+  - authenticated
 filters:
   filter_html:
     id: filter_html

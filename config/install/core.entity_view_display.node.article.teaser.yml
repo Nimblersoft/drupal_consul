@@ -1,4 +1,4 @@
-langcode: es
+langcode: en
 status: true
 dependencies:
   config:
@@ -50,4 +50,3 @@ hidden:
   comment: true
   field_image: true
   field_tags: true
-  langcode: true

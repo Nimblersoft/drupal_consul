@@ -1,4 +1,4 @@
-langcode: es
+langcode: en
 status: true
 dependencies:
   config:
@@ -47,23 +47,14 @@ settings:
           items:
             - ShowBlocks
             - Source
-        -
-          name: Align
-          items:
-            - JustifyBlock
-            - JustifyRight
-            - JustifyCenter
-            - JustifyLeft
   plugins:
     stylescombo:
       styles: ''
-    language:
-      language_list: un
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: null
-    height: null
+    width: 0
+    height: 0
