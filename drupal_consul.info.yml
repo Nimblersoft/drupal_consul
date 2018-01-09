@@ -66,6 +66,8 @@ dependencies:
   - tour
   - votingapi
   - votingapi_widgets
+  # Custom modules
+  - drupal_consul_proposal
 
 
 configurable_dependencies:

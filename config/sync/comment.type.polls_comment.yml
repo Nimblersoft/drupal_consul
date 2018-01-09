@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: polls_comment
-label: 'Poll comments'
-target_entity_type_id: poll
-description: ''

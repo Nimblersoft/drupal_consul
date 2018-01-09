@@ -1,0 +1,17 @@
+name: Drupal Consul Proposal Content
+type: module
+description: 'Provides the proposal content type.'
+package: Drupal Consul
+core: '8.x'
+
+dependencies:
+  - file
+  - comment
+  - text
+  - ds
+  - user
+  - path
+  - flag
+  - node
+  - flag
+  - menu_ui

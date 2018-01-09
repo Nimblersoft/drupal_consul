@@ -1,7 +1,0 @@
-langcode: es
-status: true
-dependencies: {  }
-id: footer
-label: Footer
-description: 'Site information links'
-locked: true

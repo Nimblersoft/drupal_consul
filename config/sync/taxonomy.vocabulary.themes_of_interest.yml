@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-name: 'Themes of interest'
-vid: themes_of_interest
-description: ''
-hierarchy: 0
-weight: 0

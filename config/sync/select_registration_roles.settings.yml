@@ -1,6 +1,0 @@
-select_registration_roles_setby_admin:
-  voluntario: voluntario
-  administrator: 0
-select_registration_roles_admin_approval:
-  administrator: 0
-  voluntario: 0
