@@ -67,8 +67,8 @@ dependencies:
   - votingapi
   - votingapi_widgets
   # Custom modules
+  - drupal_consul_budget
   - drupal_consul_proposal
-
 
 configurable_dependencies:
   drupal_consul_default_content:
