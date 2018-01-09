@@ -5,6 +5,7 @@ package: Drupal Consul
 core: '8.x'
 
 dependencies:
+  # Proposal
   - file
   - comment
   - text
@@ -13,5 +14,4 @@ dependencies:
   - path
   - flag
   - node
-  - flag
   - menu_ui
