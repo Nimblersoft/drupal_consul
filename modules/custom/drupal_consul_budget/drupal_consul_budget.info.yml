@@ -1,0 +1,18 @@
+name: Drupal Consul Budget Content
+type: module
+description: 'Provides the budget content type.'
+package: Drupal Consul
+core: '8.x'
+
+dependencies:
+  # Budget
+  - text
+  - smart_trim
+  - taxonomy
+  - user
+  - file
+  - path
+  - menu_ui
+  - field_permissions
+  - node
+  - taxonomy
