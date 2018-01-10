@@ -10,6 +10,10 @@ dependencies:
   - ctools
   - block_content
   - views
+  - drupal_consul_budget
+  - drupal_consul_debate
+  - drupal_consul_process
+  - drupal_consul_proposal
 
 default_content:
   node:

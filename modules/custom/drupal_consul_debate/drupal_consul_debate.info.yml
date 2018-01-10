@@ -1,0 +1,13 @@
+name: Drupal Consul Debate Content
+type: module
+description: 'Provides the debate content type.'
+package: Drupal Consul
+core: '8.x'
+
+dependencies:
+  # Debate
+  - forum
+  - menu_ui
+  - node
+  - taxonomy
+  - user
