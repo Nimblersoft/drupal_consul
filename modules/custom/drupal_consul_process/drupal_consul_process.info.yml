@@ -1,0 +1,21 @@
+name: Drupal Consul Process Content
+type: module
+description: 'Provides the legislative process content type.'
+package: Drupal Consul
+core: '8.x'
+
+dependencies:
+  # Process
+  - field_permissions
+  - paragraphs
+  - text
+  - node
+  - comment
+  - datetime_range
+  - datetime
+  - entity_reference_revisions
+  - ds
+  - user
+  - smart_trim
+  - path
+  - menu_ui
