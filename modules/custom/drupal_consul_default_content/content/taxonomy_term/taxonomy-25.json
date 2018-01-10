@@ -19,8 +19,8 @@
     ],
     "langcode": [
         {
-            "value": "es",
-            "lang": "es"
+            "value": "en",
+            "lang": "en"
         }
     ],
     "vid": [
@@ -31,7 +31,7 @@
     "name": [
         {
             "value": "District G",
-            "lang": "es"
+            "lang": "en"
         }
     ],
     "weight": [
@@ -42,14 +42,14 @@
     "changed": [
         {
             "value": "2017-12-15T18:36:26+00:00",
-            "lang": "es",
+            "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "default_langcode": [
         {
             "value": true,
-            "lang": "es"
+            "lang": "en"
         }
     ]
 }

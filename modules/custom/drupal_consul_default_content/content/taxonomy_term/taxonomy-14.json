@@ -19,8 +19,8 @@
     ],
     "langcode": [
         {
-            "value": "es",
-            "lang": "es"
+            "value": "en",
+            "lang": "en"
         }
     ],
     "vid": [
@@ -31,7 +31,7 @@
     "name": [
         {
             "value": "Debates",
-            "lang": "es"
+            "lang": "en"
         }
     ],
     "weight": [
@@ -42,22 +42,22 @@
     "changed": [
         {
             "value": "2017-11-10T16:24:10+00:00",
-            "lang": "es",
+            "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "default_langcode": [
         {
             "value": true,
-            "lang": "es"
+            "lang": "en"
         }
     ],
     "path": [
         {
             "alias": "\/debates",
             "pid": 1,
-            "langcode": "es",
-            "lang": "es"
+            "langcode": "en",
+            "lang": "en"
         }
     ]
 }
