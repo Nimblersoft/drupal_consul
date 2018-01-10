@@ -76,7 +76,7 @@ configurable_dependencies:
   drupal_consul_default_content:
     label: Drupal Consul Default Content
     description: Provides default content so you can see the Drupal Consul features in action.
-    enabled: false
+    enabled: true
 
 themes:
   - bartik

@@ -6,10 +6,6 @@ core: '8.x'
 
 dependencies:
   - default_content
-  - layout_discovery
-  - ctools
-  - block_content
-  - views
   - drupal_consul_budget
   - drupal_consul_debate
   - drupal_consul_process
