@@ -9,5 +9,6 @@ dependencies:
   - text
   - user
   - path
+  - block_content
   
   

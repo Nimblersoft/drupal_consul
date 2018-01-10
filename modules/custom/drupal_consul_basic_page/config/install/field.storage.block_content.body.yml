@@ -2,11 +2,11 @@ langcode: en
 status: true
 dependencies:
   module:
-    - node
+    - block_content
     - text
-id: node.body
+id: block_content.body
 field_name: body
-entity_type: node
+entity_type: block_content
 type: text_with_summary
 settings: {  }
 module: text
