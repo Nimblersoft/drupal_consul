@@ -1,0 +1,13 @@
+name: Drupal Consul Basic Page Content
+type: module
+description: 'Provides the basic page content type.'
+package: Drupal Consul
+core: '8.x'
+
+dependencies:
+  # Basic Page
+  - text
+  - user
+  - path
+  
+  
