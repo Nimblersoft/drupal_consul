@@ -10,5 +10,7 @@ dependencies:
   - user
   - path
   - block_content
+  - paragraphs
+  - field_permissions
   
   
