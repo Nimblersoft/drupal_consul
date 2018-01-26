@@ -1,9 +1,0 @@
-langcode: es
-status: false
-dependencies:
-  module:
-    - user
-id: user.full
-label: 'User account'
-targetEntityType: user
-cache: true

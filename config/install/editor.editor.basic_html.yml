@@ -1,6 +1,8 @@
-langcode: es
+langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.basic_html
   module:
     - ckeditor
 format: basic_html

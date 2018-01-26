@@ -1,13 +1,11 @@
-langcode: es
+langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.field_interest_topics
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
-    - path
     - user
 id: user.user.default
 targetEntityType: user
@@ -17,35 +15,15 @@ content:
   account:
     weight: -10
     region: content
-    settings: {  }
-    third_party_settings: {  }
   contact:
     weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_interest_topics:
-    weight: 8
-    settings: {  }
-    third_party_settings: {  }
-    type: options_buttons
     region: content
   language:
     weight: 0
     region: content
-    settings: {  }
-    third_party_settings: {  }
-  path:
-    type: path
-    weight: 30
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   timezone:
     weight: 6
     region: content
-    settings: {  }
-    third_party_settings: {  }
   user_picture:
     type: image_image
     settings:
@@ -54,5 +32,4 @@ content:
     third_party_settings: {  }
     weight: -1
     region: content
-hidden:
-  langcode: true
+hidden: {  }

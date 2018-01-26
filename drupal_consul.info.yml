@@ -4,7 +4,10 @@ description: 'An open citizenship participation platform built as a Drupal distr
 core: 8.x
 distribution:
   name: Drupal Consul
-
+  
+base profile:
+  name: standard
+  
 dependencies:
   - admin_toolbar
   - better_exposed_filters
@@ -24,6 +27,7 @@ dependencies:
   - menu_link_content
   - editor
   - entity_reference
+  - filter
   - forum
   - help
   - history
@@ -62,17 +66,13 @@ dependencies:
   - tour
   - votingapi
   - votingapi_widgets
+  # Custom modules
+  - drupal_consul_basic_page
   - drupal_consul_budget
-  - drupal_consul_legislative_process
- # - drupal_consul_poll
+  - drupal_consul_debate
+  - drupal_consul_process
   - drupal_consul_proposal
-
-
-configurable_dependencies:
-  drupal_consul_default_content:
-    label: Drupal Consul Default Content
-    description: Provides default content so you can see the Drupal Consul features in action.
-    enabled: true
+  - drupal_consul_default_content
 
 themes:
   - bartik

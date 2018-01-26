@@ -8,7 +8,7 @@ dependencies:
     - node
     - user
 id: proposals
-label: 'Duplicate of Proposals'
+label: 'Proposals'
 module: views
 description: ''
 tag: ''

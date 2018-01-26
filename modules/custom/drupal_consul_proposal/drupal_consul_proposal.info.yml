@@ -5,31 +5,13 @@ package: Drupal Consul
 core: '8.x'
 
 dependencies:
-  - views
-  - block
-  - flag
+  # Proposal
+  - file
+  - comment
+  - text
   - ds
-
-config_devel:
-  - node.type.proposal
-  #- core.entity_view_display.comment.comment.default
-  - core.entity_form_display.node.proposal.default
-  - core.entity_view_display.node.proposal.default
-  - core.entity_view_display.node.proposal.teaser
-  #- core.entity_view_mode.node.teaser
-  - field.field.node.proposal.body
-  - field.field.node.proposal.comment
-  - field.field.node.proposal.field_documentation
-  - field.field.node.proposal.field_required_voting
-  - field.field.node.proposal.field_tags
-  #- field.storage.node.body
-  #- field.storage.node.comment
-  #- field.storage.node.field_documentation
-  - field.storage.node.field_required_voting
-  #- field.storage.node.field_tags
-  - flag.flag.proposals_voting
-  - language.content_settings.node.proposal
-  - system.action.flag_action.proposals_voting.flag
-  - system.action.flag_action.proposals_voting.unflag
-  - views.view.proposals
-  - views.view.proposals_progress
+  - user
+  - path
+  - flag
+  - node
+  - menu_ui
